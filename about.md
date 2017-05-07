@@ -12,3 +12,7 @@ Current running the comms in a team of one at the Parliamentary Office of Scienc
 
 ## Education
 Graduated from Imperial College with a science communication masters and a physics with astrophysics degree from Leicester University where he spent one year abroad in Nice on an ERASMUS exchange.
+
+## Social Media
+Find me on [twitter](https://www.twitter.com/henryjameslau).
+
