@@ -1,6 +1,6 @@
 ---
 layout: page
-title: All blog articles
+title: All blogposts
 ---
 <br>
 <ul>

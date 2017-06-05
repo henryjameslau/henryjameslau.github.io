@@ -8,10 +8,10 @@ title: About
 </p>
 
 ## Employment
-Current running the comms in a team of one at the Parliamentary Office of Science and Technology and at the weekend transforms into an explainer for the Greenwich Observatory. Previously an outreach officer and a co-ordinator for the Stimulating Physics Network at the Institute of Physics 
+Currently a communications manager at the Parliamentary Office of Science and Technology. Seconded for 6 months to the Parliamentary Digital Service as an associate user researcher. Previously an explainer for the Greenwich Observator and at the Institute of Physics an outreach officer and a co-ordinator for the Stimulating Physics Network.
 
 ## Education
-Graduated from Imperial College with a science communication masters and a physics with astrophysics degree from Leicester University where he spent one year abroad in Nice on an ERASMUS exchange.
+Graduated from Imperial College with a science communication masters. First degree was physics with astrophysics degree from Leicester University where he spent one year abroad in Nice on an ERASMUS exchange.
 
 ## Social Media
 Find me on [twitter](https://www.twitter.com/henryjameslau).
