@@ -23,7 +23,7 @@ title: Resources
 - [Open Geography Portal](http://geoportal.statistics.gov.uk/) - Find boundaries for different geographies e.g. local authorities, counties, countries, regions, constituencies, MSOA, LSOA and more.
 
 
-## Tutorials
+
 
 
 
