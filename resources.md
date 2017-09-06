@@ -8,8 +8,10 @@ title: Resources
 ## General
 
 - [ONS style guide on data visualisation](http://style.ons.gov.uk/category/data-visualisation/) - Starting point for principles behind data visualisation.
+- [Visual Vocabulary](https://ft-interactive.github.io/visual-vocabulary/) Guide to what chart you should use depending on the relationship you want to show.
 
 ## Prototyping
+Tools you can use to drag and drop, or copy and paste your data to sketch it out.
 - [Chartbuilder](https://quartz.github.io/Chartbuilder/)
 - [RawGraphs](http://app.rawgraphs.io/)
 
