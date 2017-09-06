@@ -1,3 +1,6 @@
+#PAGES_REPO_NWO
+repository: henryjameslau/henryjameslau.github.io.git
+
 # Dependencies
 markdown:         kramdown
 highlighter:      rouge
