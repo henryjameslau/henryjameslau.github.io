@@ -17,6 +17,7 @@ Tools you can use to drag and drop, or copy and paste your data to sketch it out
 
 ## D3
 - [Blockbuilder](http://blockbuilder.org/) - Online tool to do coding in the browser and save to gists.
+- [Time Formats example](http://bl.ocks.org/zanarmstrong/05c1e95bf7aa16c4768e) This little tool helps you try out d3.format specifiers on different numbers. -
 
 ## Colour
 - [Your Friendly Guide to Colors in Data Visualisation](https://lisacharlotterost.github.io/2016/04/22/Colors-for-DataVis/) - A good intro post by [@lisacrost](https://twitter.com/lisacrost) about colour
