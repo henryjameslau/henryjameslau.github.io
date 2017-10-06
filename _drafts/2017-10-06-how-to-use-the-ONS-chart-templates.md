@@ -28,3 +28,23 @@ Why it works for us - mobile, easily configurable, uses templates, same code, ju
 
 - fork it, github pages
 - iframes, pym
+
+
+Pym is our awy of embedding iframes so they behave responsibly. 
+Normal iframe you specific height and width
+
+In our products we need to change the size of the iframe depending on what’s inside, eg. Graph
+Child contains the content, interactive 
+tells parents what size to change to
+Child looks at the body height and sends it over.
+Width is set to 100%
+
+Var pymchild = new ….
+Loads pym and tell it there’s a child element.
+You can tell pym to fire whenever is resized
+Function(drawgraphic){…..RenderCallback:drawgraphic}
+
+Pymchild.sendheight() – tells the parent to resize.
+
+Get the parent code set up in your cms. Other people use it, so can just lift stuff straight from your site to theirs.
+Can create wrapper that embeds child to test parent functions
