@@ -100,3 +100,4 @@ Jack's words scored 2nd lowest in terms of clarity with 5 correct answers.
 
 ### Conclusion
 
+So there you have it, Jack probably doesn't say bold or bold in a very distinctive way, but most people can't tell the difference anyway. 
