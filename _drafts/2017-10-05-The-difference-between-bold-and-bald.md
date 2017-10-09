@@ -5,9 +5,9 @@ title: The difference between bold and bald
 
 # The difference between bold and bald   
 
-Do you get those questions that you wish you knew someone who could answer them? For me I always get those with linguistics. Luckily I know a linguist. In fact someone with a PhD in linguistics, Dr Sarah Foxen. 
+Do you get those questions that you wish you knew someone who could answer them? For me I always get those with linguistics. Luckily I know a linguist. In fact someone with a PhD in linguistics, [Dr Sarah Foxen](https://twitter.com/sarahfoxen). 
 
-And one office conserversation arguing over the pronounciation between brooch and broach turned into a mini linguistics study. 
+One particular office conversation arguing over the pronounciation between brooch and broach turned into a mini linguistics study. 
 
 I asked Google to read them [brooch](http://ssl.gstatic.com/dictionary/static/sounds/20160317/brooch--_gb_1.mp3) and [broach](http://ssl.gstatic.com/dictionary/static/sounds/20160317/broach--_gb_1.mp3). I heard a difference. Sarah didn't. So we put the sounds through a spectrographic analysis tool used by linguists called [praat](http://www.fon.hum.uva.nl/praat/). 
 
@@ -86,13 +86,17 @@ Word 8 - Coffee
 ![word8](D:\Github\henryjameslau.github.io\_media\word8.png)
 
 ## Test 2
-We had 7 people participate in the test. The scores ranged from 4 - 13. This is even better than when I did the test myself and I had been hearing the words all the time as I edited them. It's worth pointing out that chance gives you a score of 7 as you have 21 questions and a 1 in 3 chance of picking the correct answer. 
+We had 7 people participate in the test. The scores ranged from 4 - 13 with most people scoring 7. The highest score is even better than when I did the test myself and I had been hearing the words all the time as I edited them. It's worth pointing out that chance gives you a score of 7 as you have 21 questions and a 1 in 3 chance of picking the correct answer. 
 
-We also asked if people were musical to see if that improved. 3 people self identified as musical and averaged 9 compared to the 4 that identified as non musical who scored 7. Small sample size I know. 
+We also asked if people were musical to see if they scored differently. 3 people self identified as musical and averaged 9 compared to the 4 that identified as non musical who scored 7. Small sample size I know. 
 
 We can also add up the total correct scores for each speaker to see who spoke the most clearly.
 
-There was one speaker who had the highest number of correct responses with 11, out of a possible 21. 
-Two speakers joint at 10. Interestingly the speakers who were the most clear had the strongest accents. Jack's words scored 2nd lowest in terms of clarity. 
+There was one speaker who had the highest number of correct responses with 11, out of a possible 21. Two speakers joint at 10. Interestingly the speakers who were the most clear had the strongest accents (Irish, Scottish and Cockney). 
 
-So there you have it, Jack probably doesn't say bold or bold in a very distinctive way, but most people don't can't tell the difference the way many people say those words. 
+If you just look at bold and bald, there are three speakers with the highest score 8/14 correct answers for their words. The accents were Irish, London and Cockney this time. 
+
+Jack's words scored 2nd lowest in terms of clarity with 5 correct answers. 
+
+### Conclusion
+
