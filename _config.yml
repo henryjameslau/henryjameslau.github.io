@@ -16,6 +16,8 @@ description:      'Digital Science Communicator'
 url:              http://henryjameslau.github.io
 baseurl:          /
 
+plugins: ['jekyll-twitter-plugin']
+
 author:
   name:           'Henry Lau'
   url:            https://twitter.com/henryjameslau
