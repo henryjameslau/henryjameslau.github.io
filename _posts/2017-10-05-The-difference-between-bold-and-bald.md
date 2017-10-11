@@ -43,13 +43,21 @@ Try it out
 This is the text we ended up using. We tried put the words of interest at the end of sentences, and also including words with similar endings for comparison. 
 
 Be careful with the kettle, the hot water might **scald** you.
+
 I think cheese is very nice on crackers
+
 It was a **bold** statement the chancellor made.
+
 I’m going to Whittards to buy some ground coffee.
+
 His ring was made of **gold**.
+
 Ten times twelve is one hundred and twenty.
+
 My dad can’t cope with the fact he’s going **bald**.
+
 There are forty-two elephants in Berlin
+
 When I saw Phil Tuffnel at Lords he **bowled** a yorker
 
 ## Analysis
