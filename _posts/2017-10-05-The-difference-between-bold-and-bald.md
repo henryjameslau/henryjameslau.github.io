@@ -62,7 +62,7 @@ Word 1 - Crackers
 
 Word 2 - Forty
 
-![word2](http://henryjameslau.github.io/_media/word2.png)
+![word2](https://github.com/henryjameslau/henryjameslau.github.io/raw/master/_media/word2.png)
 
 Word 3 - Bowled
 
