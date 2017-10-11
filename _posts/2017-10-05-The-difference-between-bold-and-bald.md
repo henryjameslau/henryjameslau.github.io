@@ -7,11 +7,14 @@ title: The difference between bold and bald
 
 Do you get those questions that you wish you knew someone who could answer them? For me I always get those with linguistics. Luckily I know a linguist. In fact someone with a PhD in linguistics, [Dr Sarah Foxen](https://twitter.com/sarahfoxen). 
 
-One particular office conversation arguing over the pronounciation between brooch and broach turned into a mini linguistics study. 
+One particular office conversation arguing over the pronunciation between brooch and broach turned into a mini linguistics study. 
 
-I asked Google to read them [brooch](http://ssl.gstatic.com/dictionary/static/sounds/20160317/brooch--_gb_1.mp3) and [broach](http://ssl.gstatic.com/dictionary/static/sounds/20160317/broach--_gb_1.mp3). I heard a difference. Sarah didn't. So we put the sounds through a spectrographic analysis tool used by linguists called [praat](http://www.fon.hum.uva.nl/praat/). 
+I asked Google to read [brooch](http://ssl.gstatic.com/dictionary/static/sounds/20160317/brooch--_gb_1.mp3) and [broach](http://ssl.gstatic.com/dictionary/static/sounds/20160317/broach--_gb_1.mp3). I heard a difference. Sarah didn't. So we put the sounds through a spectrographic analysis tool used by linguists called [praat](http://www.fon.hum.uva.nl/praat/). 
 
 Here's the results. 
+
+![](D:\Github\henryjameslau.github.io\_media\praat1.jpg)
+
 <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">Having a fun morning debating the difference between broach and brooch with <a href="https://twitter.com/SarahFoxen?ref_src=twsrc%5Etfw">@SarahFoxen</a> <a href="https://twitter.com/hashtag/linguistics?src=hash&amp;ref_src=twsrc%5Etfw">#linguistics</a> <a href="https://twitter.com/hashtag/AskALinguist?src=hash&amp;ref_src=twsrc%5Etfw">#AskALinguist</a> <a href="https://t.co/u3U7tnRbY9">pic.twitter.com/u3U7tnRbY9</a></p>&mdash; Henry Lau (@henryjameslau) <a href="https://twitter.com/henryjameslau/status/889769220057313280?ref_src=twsrc%5Etfw">July 25, 2017</a></blockquote>
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
@@ -25,21 +28,25 @@ Sarah also wondered about bowled. So we decided to do a little experiment.
 
 ## The tests
 
-We devised two tests. One to see if people can tell the difference in the words Jack says. This involved 3 b words (bold, bald, bowled) and 5 filler words. The task was to listen to the 8 words and write down what you thought the word that jack said was. 
+We devised two tests. One to see if people can tell the difference in the words Jack says. This involved 3 b words (bold, bald, bowled) and 5 filler words. The task was to listen to the 8 words and write down what you thought the word that Jack said was. 
 
 Here's the test.
-https://www.youtube.com/watch?v=aKoJBMsFpW4
 
-The second test aimed to see if there was a difference in the way people say and hear the three b words. We recorded 7 people with different accents read our set text without telling them about the experiment. The audio was cut to isolate the 3 different b words. For the test, the order of the speaker and the b words were randomised. You then had to listen to the word and choose out of the 3 option what word you heard.
+![Test1](http://img.youtube.com/vi/aKoJBMsFpW4/0.jpg)](http://www.youtube.com/watch?v=aKoJBMsFpW4 "Linguistics test 1")`
+
+
+
+The second test aimed to see if there was a difference in the way people say and hear the three b words. We recorded 7 people with different accents read our set text without telling them about the experiment. The audio was cut to isolate the 3 different b words. For the test, the order of the speaker and which b word they spoke was chosen at random. You then had to listen to the word and choose out of the 3 option what word you heard.
 
 Try it out 
-https://www.youtube.com/watch?v=CjRl3XOVU38
+
+![Test1](http://img.youtube.com/vi/CjRl3XOVU38/0.jpg)](http://www.youtube.com/watch?v=CjRl3XOVU38 "Linguistics test 1")
 
 ### Our text
 
-This is the text we ended up using. Trying to put the words of interest at the end of sentences, and also including words with similar endings for comparison. 
+This is the text we ended up using. We tried put the words of interest at the end of sentences, and also including words with similar endings for comparison. 
 
-Be careful with the kettle, the hot water might **scald ** you.
+Be careful with the kettle, the hot water might **scald** you.
 I think cheese is very nice on crackers
 It was a **bold** statement the chancellor made.
 I’m going to Whittards to buy some ground coffee.
@@ -92,7 +99,7 @@ We also asked if people were musical to see if they scored differently. 3 people
 
 We can also add up the total correct scores for each speaker to see who spoke the most clearly.
 
-There was one speaker who had the highest number of correct responses with 11, out of a possible 21. Two speakers joint at 10. Interestingly the speakers who were the most clear had the strongest accents (Irish, Scottish and Cockney). 
+There was one speaker who had the highest number of correct responses with 11, out of a possible 21. Two speakers joint at 10. Interestingly the speakers who were the most clear I would have said had the strongest accents (Irish, Scottish and Cockney). 
 
 If you just look at bold and bald, there are three speakers with the highest score 8/14 correct answers for their words. The accents were Irish, London and Cockney this time. 
 
