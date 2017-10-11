@@ -58,7 +58,7 @@ Here's what people thought was being said versus what Jack said.
 
 Word 1 - Crackers
 
-![word1](http://henryjameslau.github.io/_media/word1.png)
+![word1](https://github.com/henryjameslau/henryjameslau.github.io/raw/master/_media/word1.png)
 
 Word 2 - Forty
 
@@ -66,27 +66,27 @@ Word 2 - Forty
 
 Word 3 - Bowled
 
-![word3](http://henryjameslau.github.io/_media/word4.png)
+![word3](https://github.com/henryjameslau/henryjameslau.github.io/raw/master/_media/word3.png)
 
 Word 4 - Made
 
-![word4](http://henryjameslau.github.io/_media/word4.png)
+![word4](https://github.com/henryjameslau/henryjameslau.github.io/raw/master/_media/word4.png)
 
 Word 5 - Bold
 
-![word5](http://henryjameslau.github.io/_media/word5.png)
+![word5](https://github.com/henryjameslau/henryjameslau.github.io/raw/master/_media/word5.png)
 
 Word 6 - Fact
 
-![word6](http://henryjameslau.github.io/_media/word6.png)
+![word6](https://github.com/henryjameslau/henryjameslau.github.io/raw/master/_media/word6.png)
 
 Word 7 - Bald
 
-![word8](http://henryjameslau.github.io/_media/word7.png)
+![word8](https://github.com/henryjameslau/henryjameslau.github.io/raw/master/_media/word7.png)
 
 Word 8 - Coffee
 
-![word8](http://henryjameslau.github.io/_media/word8.png)
+![word8](https://github.com/henryjameslau/henryjameslau.github.io/raw/master/_media/word8.png)
 
 ## Test 2
 We had 7 people participate in the test. The scores ranged from 4 - 13 with most people scoring 7. The highest score is even better than when I did the test myself and I had been hearing the words all the time as I edited them. It's worth pointing out that chance gives you a score of 7 as you have 21 questions and a 1 in 3 chance of picking the correct answer. 
