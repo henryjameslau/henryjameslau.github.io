@@ -3,8 +3,6 @@ layout: post
 title: The difference between bold and bald
 ---
 
-# The difference between bold and bald   
-
 Do you get those questions that you wish you knew someone who could answer them? For me I always get those with linguistics. Luckily I know a linguist. In fact someone with a PhD in linguistics, [Dr Sarah Foxen](https://twitter.com/sarahfoxen). 
 
 One particular office conversation arguing over the pronunciation between brooch and broach turned into a mini linguistics study. 
@@ -12,8 +10,6 @@ One particular office conversation arguing over the pronunciation between brooch
 I asked Google to read [brooch](http://ssl.gstatic.com/dictionary/static/sounds/20160317/brooch--_gb_1.mp3) and [broach](http://ssl.gstatic.com/dictionary/static/sounds/20160317/broach--_gb_1.mp3). I heard a difference. Sarah didn't. So we put the sounds through a spectrographic analysis tool used by linguists called [praat](http://www.fon.hum.uva.nl/praat/). 
 
 Here's the results. 
-
-![](D:\Github\henryjameslau.github.io\_media\praat1.jpg)
 
 <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">Having a fun morning debating the difference between broach and brooch with <a href="https://twitter.com/SarahFoxen?ref_src=twsrc%5Etfw">@SarahFoxen</a> <a href="https://twitter.com/hashtag/linguistics?src=hash&amp;ref_src=twsrc%5Etfw">#linguistics</a> <a href="https://twitter.com/hashtag/AskALinguist?src=hash&amp;ref_src=twsrc%5Etfw">#AskALinguist</a> <a href="https://t.co/u3U7tnRbY9">pic.twitter.com/u3U7tnRbY9</a></p>&mdash; Henry Lau (@henryjameslau) <a href="https://twitter.com/henryjameslau/status/889769220057313280?ref_src=twsrc%5Etfw">July 25, 2017</a></blockquote>
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
@@ -32,7 +28,7 @@ We devised two tests. One to see if people can tell the difference in the words 
 
 Here's the test.
 
-![Test1](http://img.youtube.com/vi/aKoJBMsFpW4/0.jpg)](http://www.youtube.com/watch?v=aKoJBMsFpW4 "Linguistics test 1")`
+[![Test1](http://img.youtube.com/vi/aKoJBMsFpW4/0.jpg)](http://www.youtube.com/watch?v=aKoJBMsFpW4 "Linguistics test 1")
 
 
 
@@ -40,7 +36,7 @@ The second test aimed to see if there was a difference in the way people say and
 
 Try it out 
 
-![Test1](http://img.youtube.com/vi/CjRl3XOVU38/0.jpg)](http://www.youtube.com/watch?v=CjRl3XOVU38 "Linguistics test 1")
+[![Test1](http://img.youtube.com/vi/CjRl3XOVU38/0.jpg)](http://www.youtube.com/watch?v=CjRl3XOVU38 "Linguistics test 1")
 
 ### Our text
 
@@ -62,35 +58,35 @@ Here's what people thought was being said versus what Jack said.
 
 Word 1 - Crackers
 
-![word1](D:\Github\henryjameslau.github.io\_media\word1.png)
+![word1](http://henryjameslau.github.io/_media/word1.png)
 
 Word 2 - Forty
 
-![word2](D:\Github\henryjameslau.github.io\_media\word2.png)
+![word2](http://henryjameslau.github.io/_media/word2.png)
 
 Word 3 - Bowled
 
-![word3](D:\Github\henryjameslau.github.io\_media\word3.png)
+![word3](http://henryjameslau.github.io/_media/word4.png)
 
 Word 4 - Made
 
-![word4](D:\Github\henryjameslau.github.io\_media\word4.png)
+![word4](http://henryjameslau.github.io/_media/word4.png)
 
 Word 5 - Bold
 
-![word5](D:\Github\henryjameslau.github.io\_media\word5.png)
+![word5](http://henryjameslau.github.io/_media/word5.png)
 
 Word 6 - Fact
 
-![word6](D:\Github\henryjameslau.github.io\_media\word6.png)
+![word6](http://henryjameslau.github.io/_media/word6.png)
 
 Word 7 - Bald
 
-![word8](D:\Github\henryjameslau.github.io\_media\word7.png)
+![word8](http://henryjameslau.github.io/_media/word7.png)
 
 Word 8 - Coffee
 
-![word8](D:\Github\henryjameslau.github.io\_media\word8.png)
+![word8](http://henryjameslau.github.io/_media/word8.png)
 
 ## Test 2
 We had 7 people participate in the test. The scores ranged from 4 - 13 with most people scoring 7. The highest score is even better than when I did the test myself and I had been hearing the words all the time as I edited them. It's worth pointing out that chance gives you a score of 7 as you have 21 questions and a 1 in 3 chance of picking the correct answer. 
