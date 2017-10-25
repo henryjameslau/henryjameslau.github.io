@@ -8,7 +8,7 @@ At the end of every post on [Visual.ONS](https://visual.ons.gov.uk/) is some cod
 
 In [this article about healthy life expectancy](https://visual.ons.gov.uk/what-affects-an-areas-healthy-life-expectancy/) it says "To embed this interactive on your own site, use the following code:"
 
-```javascript
+```html
 <iframe width="100%" height="900px" src="https://www.ons.gov.uk/visualisations/dvc413/barcodes/barcode/index.html" scrolling="no" frameborder="0"/>
 ```
 
@@ -18,7 +18,7 @@ To embed a responsive graphic, you need to use pym.js on the site you're embeddi
 
 The example on the pym.js page says use code like this
 
-```
+```javascript
 <div id="example"></div>
 <script type="text/javascript" src="https://pym.nprapps.org/pym.v1.min.js"></script>
 <script>
