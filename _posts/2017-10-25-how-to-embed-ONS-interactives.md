@@ -28,13 +28,15 @@ var pymParent = new pym.Parent('example', 'https://www.ons.gov.uk/visualisations
 </script>
 ```
 
-Let's talk throught what's going on. `<div id="example"></div>` says create a `div` and give it the `id=example`. Next, load the pym.js script from the NPR website `<script type="text/javascript" src="https://pym.nprapps.org/pym.v1.min.js"></script>`.
+Let's talk throught what's going on. First create a `div` and give it the `id=example`. 
 
-Finally make another `<script>`, make a variable and then use the function for this page to be a parent for pym.js `var pymParent = new pym.Parent(`, put it in the `'example',` div, then choose what will be the child page` 'https://www.ons.gov.uk/visualisations/dvc434/calculator/index.html'` then some more bit to say we're not using any of the optional extras `, {}` and finally close everything ` );</script>`.
+Next, load the pym.js script from the NPR website `<script type="text/javascript" src="https://pym.nprapps.org/pym.v1.min.js"></script>`.
+
+Finally make another `<script>`, make a variable and then use a function to make this page a parent for pym.js `var pymParent = new pym.Parent(`, put it in the `'example',` div, then choose what will be the child page` 'https://www.ons.gov.uk/visualisations/dvc434/calculator/index.html'` then some more bit to say we're not using any of the optional extras `, {}` and finally close everything `);</script>`.
 
 Hopefully that made sense. Now let's see it in action.
 
-## Responsive embed
+# Responsive embed
 <div id="example"></div>
 <script type="text/javascript" src="https://pym.nprapps.org/pym.v1.min.js"></script>
 <script>
@@ -43,8 +45,8 @@ var pymParent = new pym.Parent('example', 'https://www.ons.gov.uk/visualisations
 
 </script>
 
-## Non-responsive embed
-And compare this to the non-responsive version.
+# Non-responsive embed
+And compare this to the non-responsive version where some of the text elements respond, but not the bar chart.
 
 <iframe width="100%" height="1200px" src="https://www.ons.gov.uk/visualisations/dvc434/calculator/index.html" scrolling="no" frameborder="0"/>
 
