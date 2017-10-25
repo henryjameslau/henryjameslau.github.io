@@ -1,4 +1,8 @@
-# How to use ONS charts templates
+---
+layout: post
+title: How to use ONS charts - The preamble
+---
+
 
 The ONS charts have developed in a way that suits our work. To explain how to use them and what type of work they'd be good for read on. If you don't want to read this, skip to [getting your hands dirty](\#handsdirty).
 
