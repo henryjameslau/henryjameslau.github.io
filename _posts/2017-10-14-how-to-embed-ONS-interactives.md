@@ -11,7 +11,7 @@ Test embed
 <script type="text/javascript" src="https://pym.nprapps.org/pym.v1.min.js"></script>
 <script>
 
-var pymParent = new pym.Parent('example', 'http://henrylau.co.uk/ONSvisual.github.io-fork/todaycharts/ukhpi/', {});
+var pymParent = new pym.Parent('example', 'https://www.ons.gov.uk/visualisations/dvc434/calculator/index.html', {});
 
 </script>
 ```
@@ -21,6 +21,6 @@ var pymParent = new pym.Parent('example', 'http://henrylau.co.uk/ONSvisual.githu
 <script type="text/javascript" src="https://pym.nprapps.org/pym.v1.min.js"></script>
 <script>
 
-var pymParent = new pym.Parent('example', 'http://henrylau.co.uk/ONSvisual.github.io-fork/todaycharts/ukhpi/', {});
+var pymParent = new pym.Parent('example', 'https://www.ons.gov.uk/visualisations/dvc434/calculator/index.html', {});
 
 </script>
