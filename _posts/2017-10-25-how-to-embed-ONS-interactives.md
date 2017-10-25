@@ -18,7 +18,7 @@ To embed a responsive graphic, you need to use pym.js on the site you're embeddi
 
 The example on the pym.js page says use code like this
 
-```javascript
+```html
 <div id="example"></div>
 <script type="text/javascript" src="https://pym.nprapps.org/pym.v1.min.js"></script>
 <script>
