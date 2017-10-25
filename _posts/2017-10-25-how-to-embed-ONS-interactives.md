@@ -49,7 +49,7 @@ var pymParent = new pym.Parent('example', 'https://www.ons.gov.uk/visualisations
 </script>
 
 ## Non-responsive embed
-Try resizing your browser or rotating your phone and compare this to the non-responsive version where the boxes don't resize.
+Try resizing your browser or rotating your phone and compare this non-responsive version where the boxes don't resize.
 
 <iframe width="100%" height="1200px" src="https://www.ons.gov.uk/visualisations/dvc434/floorplan/index.html" scrolling="no" frameborder="0"/>
 
