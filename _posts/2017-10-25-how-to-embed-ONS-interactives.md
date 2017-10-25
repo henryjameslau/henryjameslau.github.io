@@ -41,12 +41,12 @@ Hopefully that made sense. Now let's see it in action.
 <script type="text/javascript" src="https://pym.nprapps.org/pym.v1.min.js"></script>
 <script>
 
-var pymParent = new pym.Parent('example', 'https://www.ons.gov.uk/visualisations/dvc434/map/index.html', {});
+var pymParent = new pym.Parent('example', 'https://www.ons.gov.uk/visualisations/dvc434/floorplan/index.html', {});
 
 </script>
 
 # Non-responsive embed
 And compare this to the non-responsive version where some of the text elements respond, but not the bar chart.
 
-<iframe width="100%" height="1200px" src="https://www.ons.gov.uk/visualisations/dvc434/map/index.html" scrolling="no" frameborder="0"/>
+<iframe width="100%" height="1200px" src="https://www.ons.gov.uk/visualisations/dvc434/floorplan/index.html" scrolling="no" frameborder="0"/>
 
