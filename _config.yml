@@ -13,8 +13,8 @@ permalink:        pretty
 title:            Henry Lau
 tagline:          'Digital Science Communicator'
 description:      'Digital Science Communicator'
-url:              http://henryjameslau.github.io
-baseurl:          /
+url:              http://www.henrylau.co.uk
+baseurl:          ''
 
 author:
   name:           'Henry Lau'
