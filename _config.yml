@@ -14,7 +14,7 @@ title:            Henry Lau
 tagline:          'Digital Science Communicator'
 description:      'Digital Science Communicator'
 url:              http://www.henrylau.co.uk
-baseurl:          ''
+baseurl:          http://www.henrylau.co.uk
 
 author:
   name:           'Henry Lau'
