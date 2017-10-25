@@ -15,7 +15,7 @@ The principles of the ONS strategy is laid out in the document "Better Statistic
 3. Improve communication
 4. Challenge misuse of statistics
 
-As a results, there is an increased focus on working to the "enquiry citizen" person. In the same way that research is putting much focus and effort into communicating with the public, the ONS as a statistics bodies is trying to do the same. Our work aims to communicate statistics in a way that support these principles. And the area of work that mostly correlates to that is data journalism; using data and statistics to tell stories that matter to people.
+As a results, there is an increased focus on working to the ["enquiring citizen"](https://digitalblog.ons.gov.uk/2014/04/02/the-persona-touch/) person. In the same way that research is putting much focus and effort into communicating with the public, the ONS as a statistics bodies is trying to do the same. Our work aims to communicate statistics in a way that support these principles. And the area of work that mostly correlates to that is data journalism; using data and statistics to tell stories that matter to people.
 
 . These are published in many many excel files. With each release, a commentary and analysis is published but these are often technical documents with enough detail for the expert user. 
 
