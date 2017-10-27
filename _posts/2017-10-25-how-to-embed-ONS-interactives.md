@@ -6,6 +6,8 @@ title: How to embed ONS interactives
 
 At the end of every post on [Visual.ONS](https://visual.ons.gov.uk/) is some code about how to use an iframe to embed any interactives elsewhere. This is to encourage syndication elsewhere by for example news organisations who might want to rewrite the words around an interactive to suits their style or readership.
 
+## Using an iframe to embed
+
 In [this article about house price by area](https://visual.ons.gov.uk/house-prices-how-much-does-one-square-metre-cost-in-your-area/) it says "To embed the floorplan in your site use the following code:"
 
 ```html
