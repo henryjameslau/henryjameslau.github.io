@@ -4,7 +4,7 @@ title: How to embed ONS interactives
 ---
 
 
-At the end of every post on [Visual.ONS](https://visual.ons.gov.uk/) is some code about how to use an iframe to embed any interactives elsewhere. This is to encourage syndication elsewhere by for example news organisations who might want to rewrite the words around an interactive to suits their style or readership. 
+At the end of every post on [Visual.ONS](https://visual.ons.gov.uk/) is some code about how to use an iframe to embed any interactives elsewhere. This is to encourage syndication elsewhere by for example news organisations who might want to rewrite the words around an interactive to suits their style or readership.
 
 In [this article about house price by area](https://visual.ons.gov.uk/house-prices-how-much-does-one-square-metre-cost-in-your-area/) it says "To embed the floorplan in your site use the following code:"
 
@@ -12,22 +12,15 @@ In [this article about house price by area](https://visual.ons.gov.uk/house-pric
 <iframe width="100%" height="1200px" src="https://www.ons.gov.uk/visualisations/dvc434/floorplan/index.html" scrolling="no" frameborder="0"/>
 ```
 
-<<<<<<< HEAD
 If you copied this into your website or CMS, this would make an iframe which acts like a window where the view is the ONS interactive. The window view is set with the `width="100%"` and `height="1200px"`. This will create a window that fills 100% of the width of where you put it and a height that's set manually. The width is sensed when the page is loaded and set to fill the whole width. The height should be set to something that doesn't cut off the bottom of the interactive.
 
-This would work fine for most circumstances. But if you were changing the size of your window for example rotating your mobile or changing the resizing your browser, the width that was set when the page loaded would no longer correspond with the width of your browser. 
-=======
-This would work for most people but it wouldn't be reponsive. 
->>>>>>> parent of 389bf4a... tidying
+This would work fine for most circumstances. But if you were changing the size of your window for example rotating your mobile or changing the resizing your browser, the width that was set when the page loaded would no longer correspond with the width of your browser.
 
 ## Making your embed responsive
 We use a javascript library called [pym.js](http://blog.apps.npr.org/pym.js/) to make our interactives reponsive. The basic idea is that on resizing, the interactives are redrawn to fit the new iframe. If the width of the interactive is small i.e. a mobile screen, the interactive is designed to behave differently.
 
-<<<<<<< HEAD
 To embed a responsive graphic, you need to use [pym.js](http://blog.apps.npr.org/pym.js/) on the site you're embedding on. This is quite simple to do if you can add scripts to your page. This website is refered to as the parent. The page you're embedding is called the child.
-=======
-To embed a responsive graphic, you need to use pym.js on the site you're embedding on. This is quite simple to do if you can add scripts to your page. This website is refered to as the parent. The page you're embedding from is called the child. 
->>>>>>> parent of 389bf4a... tidying
+
 
 The example on the pym.js page says use code like this
 
@@ -45,7 +38,6 @@ Let's talk throught what's going on. First create a `div` and give it the `id=ex
 
 Next, load the pym.js script from the NPR website `<script type="text/javascript" src="https://pym.nprapps.org/pym.v1.min.js"></script>`.
 
-<<<<<<< HEAD
 Make another `<script>`, make a variable and then use a function to make this page a parent for pym.js `var pymParent = new pym.Parent(`.
 
 Use the div id to say where to put it, in this case the `'example',` div.
@@ -53,9 +45,6 @@ Use the div id to say where to put it, in this case the `'example',` div.
 Choose what will be the child page. This is going to be the interactive we've chosen and we get the page from the embed code in the article` 'https://www.ons.gov.uk/visualisations/dvc434/floorplan/index.html'`.
 
 Then some more bit to say we're not using any of the optional extras `, {}` and finally close everything `);</script>`.
-=======
-Finally make another `<script>`, make a variable and then use a function to make this page a parent for pym.js `var pymParent = new pym.Parent(`, put it in the `'example',` div, then choose what will be the child page` 'https://www.ons.gov.uk/visualisations/dvc434/floorplan/index.html'` then some more bit to say we're not using any of the optional extras `, {}` and finally close everything `);</script>`.
->>>>>>> parent of 389bf4a... tidying
 
 Hopefully that made sense. Now let's see it in action.
 
