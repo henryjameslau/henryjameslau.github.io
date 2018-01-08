@@ -11,13 +11,13 @@ The ONS charts have developed in a way that suits our work. To explain how to us
 The principles of the ONS strategy is laid out in the document "Better Statistics, Better Decisions". In it, it describes many of the principles that guide our work. These include
 
 1. Inform decision making
-2. Support Democratic debate
+2. Support democratic debate
 3. Improve communication
 4. Challenge misuse of statistics
 
-As a results, there is an increased focus on working to the ["enquiring citizen"](https://digitalblog.ons.gov.uk/2014/04/02/the-persona-touch/) person. In the same way that research is putting much focus and effort into communicating with the public, the ONS as a statistics bodies is trying to do the same. Our work aims to communicate statistics in a way that support these principles. And the area of work that mostly correlates to that is data journalism; using data and statistics to tell stories that matter to people.
+As a result, there is an increased focus on working to the ["enquiring citizen"](https://digitalblog.ons.gov.uk/2014/04/02/the-persona-touch/) persona. In the same way that [research is putting much focus and effort into communicating with the public](http://www.rcuk.ac.uk/innovation/impacts/), the ONS as a statistics bodies is trying to do the same. Our work aims to communicate statistics in a way that support these principles. And the area of work that mostly correlates to that is data journalism; using data and statistics to tell stories that matter to people.
 
-. These are published in many many excel files. With each release, a commentary and analysis is published but these are often technical documents with enough detail for the expert user. 
+ONS data are published in many many excel files. With each release, a commentary and analysis is published but these are often technical documents with enough detail for the expert user. If you are an expert you'll be familiar with the website you'll be able to find the data and understand everything about it. If you're in an "information forager", you might persist with different search terms and then eventually find your way to what you think might be the right data so you download it and see. Repeat a few times until you find what you really want. The vast majority would turn away at just opening a spreadsheet. We are failing these people. And if we really want to improve the world we need to make sure these people have the information they need to have important conversations. This is where the digital content team comes in. 
 
 ## How we work
 
@@ -41,7 +41,7 @@ Once you've found a good idea, it's time to really hone in on what the headline 
 
 ### Commission
 
-Once your idea is firm, it is written up as a proforma and send to an Editorial Commission Group (ECG) made up of deputy directors for each business area. The proforma contains the outline of what you want to say, how you're going to say it, the risks, external factors, other angles. They look over the idea to ensure it's aimed at the right level with the right focus and any concerns are addressed. 
+Once your idea is firm, it is written up as a proforma and send to an internal group Editorial and Comms Group (ECG) made up of deputy directors for each business area. The proforma contains the outline of what you want to say, how you're going to say it, the risks, external factors, other angles. They look over the idea to ensure it's aimed at the right level with the right focus and any concerns are addressed. 
 
 ### Development
 
