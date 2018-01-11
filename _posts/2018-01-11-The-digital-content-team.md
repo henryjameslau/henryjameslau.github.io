@@ -1,11 +1,11 @@
 ---
 layout: post
-title: The Digital Content Team
+title: The Digital Content Team behind Visual.ONS
 ---
 
 In my mind, this post was meant to talk about how to use the ONS chart template, but to do that properly I need to explain how the digital content team is set up and the purpose of our work because this drives how our templates have been developed. 
 
-## The goals of the work
+## Our goals
 
 The principles of the ONS strategy is laid out in the document "[Better Statistics, Better Decisions](https://gss.civilservice.gov.uk/wp-content/uploads/2012/12/Better-Statistics-Better-Decisions.pdf)". In it, it describes many of the principles that guide our work. These include
 
