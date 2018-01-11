@@ -24,7 +24,7 @@ The vast majority would turn away at just opening a spreadsheet. We are failing 
 
 The team is multidisclipinary and is made up of journalists, designers and developers. 
 
-![https://github.com/henryjameslau/henryjameslau.github.io/raw/master/_media/Data-vis-team.png]()
+![Digital Content Team](https://github.com/henryjameslau/henryjameslau.github.io/raw/master/_media/Data-vis-team.png)
 
 The journalistic skills are important for transforming information about statistics in to something that accurate to the data yet understandable to average citizen. The design and coding skills are about making something that presents the data in the most readable and useful way using the best bits of digital; the ability to reach a large amount of people, in a way that is quick to produce and can be interactive.  
 
