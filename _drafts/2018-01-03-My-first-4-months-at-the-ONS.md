@@ -9,7 +9,7 @@ I moved from my job in Parliament to working for the ONS in August last year. Si
 
 ###Back to writing
 
-It's been nice to get back to writing articles which get published. I have been lucky to work with great editors so finesse my writing but for a while that skill hasn't been used that much until now. I've learnt I enjoy it, still not great at it and lots to learn from other people. 
+It's been nice to get back to writing articles which get published. I have been lucky to work with great editors in the past to finesse my writing but for a while that skill hasn't been used that much until now. I've learnt I still enjoy it, still not great at it and lots to learn from other people. 
 
 ###Project plate spinning
 
@@ -17,7 +17,7 @@ Due to the long time scale involved in some of the projects we're working on, we
 
 ###D3 Wizard
 
-Turns out I'm pretty good at d3.js. All those weekends working on data visualisations projects for Around the World in 80 Doughs have taught me quite a lot. Now the thing for us to work on is to figure out the best way to share this knowledge in the team so everyone can be D3 wizards.
+Turns out I'm pretty good at d3.js. All those weekends working on data visualisations projects for Around the World in 80 Doughs have taught me quite a lot. Still learning lots from other people in the team. Now the thing for us to work on is to figure out the best way to share this knowledge in the team so everyone can be D3 wizards.
 
 ###Reassuring Bureaucracy  
 

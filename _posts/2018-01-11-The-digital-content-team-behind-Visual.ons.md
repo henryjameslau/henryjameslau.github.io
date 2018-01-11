@@ -48,7 +48,7 @@ Once your idea is firm, it is written up as a proforma and sent to an internal g
 
 The article is written and any charts or interactives are developed. Often charts use our templates and if necessary are adjusted to fit the story. Our templates have come out of what have worked in the past and use the most common elements of interactives. The development of interactives and the article happens with regular feedback from the editorial, design and UX as well as the business area. These is the part where the disclipine of data visualisation becomes important as choosing the right chart to tell the story is paramount. I would suggest the FT's [visual vocabulary](https://github.com/ft-interactive/chart-doctor/tree/master/visual-vocabulary) as a starting point. Not forgotten is the digital standards we are working towards including working on all devices and accessibility. 
 
- ### Publish
+### Publish
 
 Once it's all finished the article is published. Often we are looking for organisations to syndicate the content so elements are made to be embedded into other people's system. We track how the content goes down with partners, through different distribution channels. 
 
