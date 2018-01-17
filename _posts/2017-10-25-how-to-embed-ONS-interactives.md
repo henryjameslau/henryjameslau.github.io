@@ -4,7 +4,7 @@ title: How to embed ONS interactives
 ---
 
 
-At the end of every post on [Visual.ONS](https://visual.ons.gov.uk/) is some code about how to use an iframe to embed any interactives elsewhere. This is to encourage syndication elsewhere by for example news organisations who might want to rewrite the words around an interactive to suits their style or readership.
+At the end of some posts on [Visual.ONS](https://visual.ons.gov.uk/) is some code about how to use an iframe to embed any interactives elsewhere. This is to encourage syndication elsewhere, for example news organisations who might want to rewrite the words around an interactive to suit their style or readership.
 
 ## Using an iframe to embed
 
@@ -19,9 +19,9 @@ If you copied this into your website or CMS, this would make an iframe which act
 This would work fine for most circumstances. But if you were changing the size of your window for example rotating your mobile or changing the resizing your browser, the width that was set when the page loaded would no longer correspond with the width of your browser.
 
 ## Making your embed responsive
-We use a javascript library called [pym.js](http://blog.apps.npr.org/pym.js/) to make our interactives reponsive. The basic idea is that on resizing, the interactives are redrawn to fit the new iframe. If the width of the interactive is small i.e. a mobile screen, the interactive is designed to behave differently.
+We use a javascript library called [pym.js](http://blog.apps.npr.org/pym.js/) to make our interactives responsive. The basic idea is that on resizing, the interactives are redrawn to fit the new iframe. If the width of the interactive is small, like a mobile screen, the interactive is designed to behave differently.
 
-To embed a responsive graphic, you need to use [pym.js](http://blog.apps.npr.org/pym.js/) on the site you're embedding on. This is quite simple to do if you can add scripts to your page. This website is refered to as the parent. The page you're embedding is called the child.
+To embed a responsive graphic, you need to use [pym.js](http://blog.apps.npr.org/pym.js/) on the site you're embedding on. This is quite simple to do if you can add scripts to your page. This website is referred to as the parent. The page you're embedding is called the child.
 
 
 The example on the pym.js page says use code like this
@@ -36,7 +36,7 @@ var pymParent = new pym.Parent('example', 'https://www.ons.gov.uk/visualisations
 </script>
 ```
 ## Code walkthrough
-Let's talk throught what's going on. First create a `div` and give it the `id=example`.
+Let's talk through what's going on. First create a `div` and give it the `id=example`.
 
 Next, load the pym.js script from the NPR website `<script type="text/javascript" src="https://pym.nprapps.org/pym.v1.min.js"></script>`.
 
