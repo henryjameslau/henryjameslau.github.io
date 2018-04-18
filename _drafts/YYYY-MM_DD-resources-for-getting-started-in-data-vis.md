@@ -34,3 +34,12 @@ plus a bit of background on why that particular way suits that data.
 
 Chart Doctor articles talk about issues creating visualisations and how 
 people approach them and reason why they make certain design decisions.
+
+
+
+Colour
+
+
+
+Geo resources
+
