@@ -1,8 +1,13 @@
+---
+layout: post
+title: Using the ONS chart templates
+---
+
 In my last post I talked about the structure of my team and how we work. This post goes into more about how we use templates for charts and interactives.
 
-There are many charts we commonly use. Rather than remake these from scratch each time, we made templates. This allows us to make chart quickly and they include features commonly needed, for example annotations. 
+There are many charts we commonly use. Rather than remake these from scratch each time, we made templates. This allows us to make charts quickly and include features commonly used, for example annotations. 
 
-The [ONS chart templates](https://github.com/ONSvisual/Simple-charts) makes charts are designed to work well on mobile, lightweight on the user's bandwidth and [embeddable using pym.js](http://henrylau.co.uk/2017/10/25/how-to-embed-ONS-interactives/). 
+The [ONS chart templates](https://github.com/ONSvisual/Simple-charts) are designed to work well on mobile, lightweight on the user's bandwidth and [embeddable using pym.js](http://henrylau.co.uk/2017/10/25/how-to-embed-ONS-interactives/). 
 
 Each template is driven by a config file that specify certain variables that are needed. Using these templates, it should be possible to just add in your data and adjust the config to quickly produce charts. 
 
@@ -28,5 +33,5 @@ Each chart has a config file that contains frequently changed variables such as 
 
 You can now see your finished visualisation using a browser. Firefox will run the code in the browser off local files but most browsers won't (Chrome, IE, Safari). In which case, you will either have to run a http server in the directory of your file, or use github pages. 
 
-Now you've made your chart with the ONS templates, you can stop worrying about how your graph is going to behave on mobile and you can work on all the other important bits - annotations, title, the words around the graphic, the structure, etc. 
+Now you've made your chart with the ONS templates, you can stop worrying about how your graph is going to behave on mobile and you can work on all the other important bits - annotations, title, the article etc.
 
