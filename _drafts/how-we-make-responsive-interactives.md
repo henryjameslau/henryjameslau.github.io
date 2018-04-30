@@ -1,6 +1,6 @@
 #How to make responsive d3.js interactives
 
-What happens to our visualisations on a mobile is a really important consideration when making our interactives. To reach people with our content, we need to make it syndicatable; to make it syndicatable we need it to work on mobile. 
+What happens to our visualisations on a mobile is important. To reach people with our content, we need to make it syndicatable; to make it syndicatable we need it to work on mobile. 
 
 
 
@@ -26,7 +26,7 @@ Now we know the width of our browser we can make our interactive accordingly. So
 - margins
 
 
-- tick formats, going from 2008 to '08 on mobile
+- tick formats, going from 2008 on desktop to '08 on mobile
 - the number of ticks
 - which annotations to show and and where they appear.
 
