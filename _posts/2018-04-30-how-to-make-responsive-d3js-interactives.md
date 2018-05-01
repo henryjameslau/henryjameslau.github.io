@@ -61,7 +61,7 @@ Finally, we use the [bootstrap grid](https://getbootstrap.com/docs/4.0/layout/gr
 
 ## Postscript
 
-On a side note, I came across [another way to make responsive SVGs](https://brendansudol.com/writing/responsive-d3) from the [d3js Slack group](https://d3-slackin.herokuapp.com/). 
+On a side note, I came across [another way to make responsive SVGs](https://brendansudol.com/writing/responsive-d3) from the [d3js Slack group](https://d3-slackin.herokuapp.com/). It uses a viewbox to scale the SVG. This is useful for interactives that have transitions or delays.
 
 
 
