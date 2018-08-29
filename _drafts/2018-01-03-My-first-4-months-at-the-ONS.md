@@ -26,3 +26,13 @@ In many ways the ONS and Parliament are very similar. At Parliament there are te
 
 
 There's lots to celebrate too. I've published pieces I'm proud of in collaboration with other team members. I've started  being a manager and trying to be a good one. But still much more to learn and more to celebrate. 
+
+
+
+
+
+learning is best done in communities
+
+- learning on my own
+  - learnt more with other people
+  - conversations
