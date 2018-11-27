@@ -23,7 +23,7 @@ Second, I found out each National Trust place comes with the titles for it's tic
 
 So I used OpenRefine to cluster these into one entry. [Here's the data that's been cleaned and clustered](https://github.com/henryjameslau/national-trust-scraper/blob/master/Scraper/NatTrust-clustered.xlsx). 
 
-I realised I had scraped my data in a funny way to used the reshape packed in R to fiddle about with it. The plan to make a calculator was out the window so I just filtered the data for an adult paying gift aid. Now my data was ready to map. 
+I realised I had scraped my data in a funny way so used the reshape packed in R to [fiddle](https://github.com/henryjameslau/national-trust-scraper/blob/master/Scraper/reshaping.Rmd) about with it. The plan to make a calculator was out the window so I just filtered the data for an adult paying gift aid. Now my data was ready to map. 
 
 I wanted a simple map to just show places and allow people to click through and see what was around their area and prices. I settled on using [flourish](https://flourish.studio/) and was impressed with the configurability of their maps. 
 
