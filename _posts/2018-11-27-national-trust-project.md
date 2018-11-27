@@ -11,7 +11,7 @@ This ended up being quite complicated to I decided to make a MVP (minimum viable
 <div class="flourish-embed" data-src="visualisation/167193"></div><script src="https://public.flourish.studio/resources/embed.js"></script>
 
 ## Methodology
-First had to [scrape](https://github.com/henryjameslau/national-trust-scraper/blob/master/Scraper/Nat%20Trust.ipynb) the National Trust website. This was my first go at learning how to scrape with python and it was quite easy. Thanks to [Jure](https://twitter.com/JureStabuc) for teaching me. 
+First had to [scrape](https://github.com/henryjameslau/national-trust-scraper/blob/master/Scraper/Nat%20Trust.ipynb) the National Trust website. This was my first go at learning how to scrape with python and it was quite easy. Thanks to [Jure](https://twitter.com/JureStabuc) for teaching me. The data was scraped on 23 July 2018 so I expect prices may have been altered since. 
 
 Second, I found out each National Trust place comes with the titles for it's tickets. For example there was 
 
