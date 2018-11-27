@@ -8,7 +8,7 @@ I wanted to build a calculator where you put in your group size (adult, pair of 
 
 This ended up being quite complicated to I decided to make a MVP (minimum viable product) of a map with all national trust attractions with prices for adults with gift-aid.
 
-<div class="flourish-embed" data-src="visualisation/167193"></div>undefined<script src="https://public.flourish.studio/resources/embed.js"></script>
+<div class="flourish-embed" data-src="visualisation/167193"></div><script src="https://public.flourish.studio/resources/embed.js"></script>
 
 ## Methodology
 First had to [scrape](https://github.com/henryjameslau/national-trust-scraper/blob/master/Scraper/Nat%20Trust.ipynb) the National Trust website. This was my first go at learning how to scrape with python and it was quite easy. Thanks to [Jure](https://twitter.com/JureStabuc) for teaching me. 
