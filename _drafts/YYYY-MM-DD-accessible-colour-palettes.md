@@ -14,11 +14,19 @@ Also with most interactives and especially maps, you have colours next to each o
 
 We're used to thinking of colours in terms of red, green and blue. Add these colours together and you get white. We can describe colours using RGB, breaking up each colour channel into 256 parts. Increase the red channel and you get <span style="color:rgb(255,0,0)">red</span>. Add the blue channel and you get <span style="color:rgb(255,0,255)">purple</span>.Add the green channel and you'll get <span style="color:rgb(255,255,255)">white</span>.
 
+#### The human eye
+
 This works quite well for computers, just add three numbers together to make a colour. The problem comes when we apply human physiology to the issue. Inside the eye, there are two type of cells that sense light: rods and cones. Rods mostly deal with low light and cones are used to tell colour in well-lit conditions.
 
-### The human eye
+![Graph of cone sensitivity by wavelength](https://upload.wikimedia.org/wikipedia/commons/1/1e/Cones_SMJ2_E.svg)
 
-More perceptive to some colours.
+Image: [Wikimedia](https://commons.wikimedia.org/wiki/File:Cones_SMJ2_E.svg), [CC-BY](https://creativecommons.org/licenses/by/3.0/deed.en)
+
+The three rods are sensitive to different wavelengths of light, with one roughly at blue, yellow and red. But these don't respond linearly (i.e. a light twice as bright doesn't send a signal twice as strong). What this means is that we should consider what colours our eyes are drawn to, what colours make up the data vis and what parts of the visual you'd like to draw attention.
+
+
+
+
 
 ### Colours to represents your data
 
