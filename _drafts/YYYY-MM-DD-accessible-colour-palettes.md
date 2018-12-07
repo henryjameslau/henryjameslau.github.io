@@ -12,7 +12,13 @@ Also with most interactives and especially maps, you have colours next to each o
 
 ### Colour space
 
+We're used to thinking of colours in terms of red, green and blue. Add these colours together and you get white. We can describe colours using RGB, breaking up each colour channel into 256 parts. Increase the red channel and you get <span style="color:rgb(255,0,0)">red</span>. Add the blue channel and you get <span style="color:rgb(255,0,255)">purple</span>.Add the green channel and you'll get <span style="color:rgb(255,255,255)">white</span>.
 
+This works quite well for computers, just add three numbers together to make a colour. The problem comes when we apply human physiology to the issue. Inside the eye, there are two type of cells that sense light: rods and cones. Rods mostly deal with low light and cones are used to tell colour in well-lit conditions.
+
+### The human eye
+
+More perceptive to some colours.
 
 ### Colours to represents your data
 
@@ -28,9 +34,9 @@ To [check your colour palette in datawrapper](https://blog.datawrapper.de/colorb
 
 ### Semantics
 
-Colour also has semantic meaning. Be careful to check what those colours could mean for people. Meaning also vary culturally so may mean different things outside what you're used to.
+Colour also has semantic meaning. We're tired of seeing blue for males and pink for females for any dataset, but it's hard to break away from the associated meaning of those colours. Datawrapper did [a recent review of what colours people are using to represent gender](https://blog.datawrapper.de/gendercolor/). 
 
-We're tired of seeing blue for males and pink for females for any dataset, but it's hard to break away from the associated meaning of those colours. Datawrapper did [a recent review of what colours people are using to represent gender](https://blog.datawrapper.de/gendercolor/). 
+Be careful to check what those colours could mean for people. Meaning also vary culturally so may mean different things outside what you're used to.
 
 ### Tools to help you choose colours
 
@@ -39,10 +45,6 @@ For maps - http://tristen.ca/hcl-picker/#/hlc/6/1/15534C/E2E062
 ### Testing our your palettes
 
 Use tools to test out palettes with what they'll look like http://projects.susielu.com/viz-palette
-
-### Tools to generate palettes
-
-
 
 
 
