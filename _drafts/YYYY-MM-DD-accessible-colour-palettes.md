@@ -22,7 +22,11 @@ This works quite well for computers, just add three numbers together to make a c
 
 Image: [Wikimedia](https://commons.wikimedia.org/wiki/File:Cones_SMJ2_E.svg), [CC-BY](https://creativecommons.org/licenses/by/3.0/deed.en)
 
-The three rods are sensitive to different wavelengths of light, with one roughly at blue, yellow and red. But these don't respond linearly (i.e. a light twice as bright doesn't send a signal twice as strong). What this means is that we should consider what colours our eyes are drawn to, what colours make up the data vis and what parts of the visual you'd like to draw attention.
+The three rods are sensitive to different wavelengths of light, with one roughly at blue, yellow and red. But these don't respond linearly (i.e. a light twice as bright doesn't send a signal twice as strong). What this means is that we should consider what colours our eyes are drawn to, what colours make up the data vis and what parts of the visual you'd like to draw attention to.
+
+#### A different way to think about colour
+
+A alternative way of thinking about colour instead of RGB is Hue, Chroma, and Lightness (HCL). The advantages of using HCL is that it takes into account the way the human eye perceives colour. 
 
 
 
