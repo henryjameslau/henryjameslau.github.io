@@ -28,7 +28,7 @@ The three rods are sensitive to different wavelengths of light, with one roughly
 
 A alternative way of thinking about colour instead of RGB is Hue, Chroma, and Lightness (HCL). The advantages of using HCL is that it takes into account the way the human eye perceives colour. 
 
-
+To make a good sequential colour scale, you need to steadily change the lightness of the colours. 
 
 
 
@@ -40,9 +40,9 @@ Be mindful that when using colour to represents your data that it shows the rela
 
 I am colourblind myself (slightly red/green) which is useful when it comes to [calling out](https://twitter.com/henryjameslau/status/920409974706188290) [bad colours](https://twitter.com/henryjameslau/status/880788875471454208) on charts. Approximately 8% of men are colourblind and 0.5% of women. There are two main types, difficulty seeing red/green and difficulty seeing blue/yellow. 
 
-The best write up I've seen about testing colours in charts for colourblindness comes from Gregor Aisch of datawrapper. In his blog post, he looks at [https://vis4.net/blog/2018/02/automate-colorblind-checking/](https://vis4.net/blog/2018/02/automate-colorblind-checking/). He applied simulated colour blind vision to a set of colour and then looked at difference between colours. Where the differences are not great enough a warning is given.
+The best write up I've seen about testing colours in charts for colourblindness comes from Gregor Aisch of datawrapper. [He applies simulated colour blind vision to a set of colour and then looked at difference between colours](https://vis4.net/blog/2018/02/automate-colorblind-checking/). Where the differences are not great enough a warning is given.
 
-To [check your colour palette in datawrapper](https://blog.datawrapper.de/colorblind-check/), why not put them try in data wrapper and check if they give any warnings. 
+You can [check your colour palette in datawrapper](https://blog.datawrapper.de/colorblind-check/) and check if they give any warnings. 
 
 ### Semantics
 
@@ -72,6 +72,13 @@ Colour meaning
 
 
 
-https://blog.graphiq.com/finding-the-right-color-palettes-for-data-visualizations-fcd4e707a283
 
-https://www.youtube.com/watch?reload=9&v=LBmLspdAtxM
+
+References:
+
+http://www.hclwizard.org/why-hcl/
+
+https://www.vis4.net/blog/2013/09/mastering-multi-hued-color-scales/
+
+https://munsell.com/color-blog/difference-chroma-saturation/
+
