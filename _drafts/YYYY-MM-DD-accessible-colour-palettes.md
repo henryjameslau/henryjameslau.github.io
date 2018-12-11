@@ -12,7 +12,7 @@ Also with most interactives and especially maps, you have colours next to each o
 
 ### Colour space
 
-We're used to thinking of colours in terms of red, green and blue. Add these colours together and you get white. We can describe colours using RGB, breaking up each colour channel into 256 parts. Increase the red channel and you get <span style="color:rgb(255,0,0)">red</span>. Add the blue channel and you get <span style="color:rgb(255,0,255)">purple</span>.Add the green channel and you'll get <span style="color:rgb(255,255,255)">white</span>.
+We're used to thinking of colours in terms of red, green and blue. Add these colours together and you get white. We can describe colours using RGB, breaking up each colour channel into 256 parts. Increase the red channel and you get <span style="color:rgb(255,0,0)">red</span>. Add the blue channel and you get <span style="color:rgb(255,0,255)">purple</span>. Add the green channel and you'll get <span style="color:rgb(255,255,255)">white</span>.
 
 #### The human eye
 
@@ -28,9 +28,9 @@ The three rods are sensitive to different wavelengths of light, with one roughly
 
 A alternative way of thinking about colour instead of RGB is Hue, Chroma, and Luminance (HCL). The advantages of using HCL is that it takes into account the way the human eye perceives colour. 
 
-Hue is the shade (red,green,blue), Chroma is a bit like saturation but takes into account the colour of illumination. Luminance is the perceived brightness of that colour. 
+Hue is the shade (red,green,blue), Chroma is the richness of colour (it's a bit like saturation but takes into account the colour of other white objects). Luminance is the perceived brightness of that colour. 
 
-Whereas RGB could be imagined as a cubic colour space with each dimension going from 0 to 255. HCL works in a cylindrical colour space. Hue ranges from 0-360°.
+Whereas RGB could be imagined as a cubic colour space with each dimension going from 0 to 255. HCL works in a cylindrical colour space. Hue ranges from 0-360°. Chroma start at 0 but the maximum can vary with hue and luminance. Luminance is from 0 to 100. 
 
 Luminance is dependent on hue and chroma. 
 
