@@ -26,11 +26,13 @@ The three rods are sensitive to different wavelengths of light, with one roughly
 
 #### A different way to think about colour
 
-A alternative way of thinking about colour instead of RGB is Hue, Chroma, and Lightness (HCL). The advantages of using HCL is that it takes into account the way the human eye perceives colour. 
+A alternative way of thinking about colour instead of RGB is Hue, Chroma, and Luminance (HCL). The advantages of using HCL is that it takes into account the way the human eye perceives colour. 
 
-To make a good sequential colour scale, you need to steadily change the lightness of the colours. 
+Hue is the shade (red,green,blue), Chroma is a bit like saturation but takes into account the colour of illumination. Luminance is the perceived brightness of that colour. 
 
+Whereas RGB could be imagined as a cubic colour space with each dimension going from 0 to 255. HCL works in a cylindrical colour space. Hue ranges from 0-360°.
 
+Luminance is dependent on hue and chroma. 
 
 ### Colours to represents your data
 
@@ -50,6 +52,12 @@ Colour also has semantic meaning. We're tired of seeing blue for males and pink 
 
 Be careful to check what those colours could mean for people. Meaning also vary culturally so may mean different things outside what you're used to.
 
+### What to think about when picking colours
+
+To make a good sequential colour scale, you need to steadily change the lightness of the colours. 
+
+For categorical colour, need to keep chroma and luminance steady.
+
 ### Tools to help you choose colours
 
 For maps - http://tristen.ca/hcl-picker/#/hlc/6/1/15534C/E2E062 
@@ -57,18 +65,6 @@ For maps - http://tristen.ca/hcl-picker/#/hlc/6/1/15534C/E2E062
 ### Testing our your palettes
 
 Use tools to test out palettes with what they'll look like http://projects.susielu.com/viz-palette
-
-
-
-
-
-Be mindful that when using colour to represents your data that it shows the relationships in your data. E.g. if your data is different categories, your colours should be as distinct as possible. If your data is sequential or represents a range, colour should change in a sensible way. Lab and HCL colour spaces calculate colour based on the way the human eye works, rather than how computers calculate colours.
-
-Colour blindness
-
-
-
-Colour meaning
 
 
 
