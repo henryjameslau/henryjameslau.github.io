@@ -114,45 +114,69 @@ Now we know how to make sequential palettes, we can make divergent palettes by s
 
 As advised by graphiq, [choose colours that make sense](https://blog.graphiq.com/finding-the-right-color-palettes-for-data-visualizations-fcd4e707a283). This generally means faint colours for low numbers  and stronger colours for high numbers, although this might depend on your data.
 
-You are going to need to think through the starting points for your colours.  The more colours you have in your scale, the larger the colour difference between the start and end point. 
+You are going to need to think through the starting points for your colours.  The more colours you have in your scale, the larger the colour difference between the start and end point, for example see how Colorbrewer does it (from [this paper](https://www.tandfonline.com/doi/pdf/10.1559/152304003100010929)). 
 
+![Colorbrewer divergent colour palettes](https://raw.githubusercontent.com/henryjameslau/henryjameslau.github.io/master/_media/colorbrewer-diverging-palettes.png)
 
+### Categorical colours
 
-#### Categorical colours 
+Choosing distinct colours is hard. We know that variation in chroma and lightness make colours easier to distinguish. 
 
-For categorical colours, need to keep chroma and lightness steady so colours don't seem stronger than each other but for greyscale you need variation in lightness. 
+For categorical colours, the difficulty comes when we need to keep chroma and lightness similar so colours don't seem stronger than each other. But if we want the colours to work in greyscale you need variation in lightness. Getting some difference in lightness also helps viewers with colour so they aren't relying on hue alone.
 
-Getting colours to work to be distinct enough in greyscale helps viewers in colour
+[I want hue](http://tools.medialab.sciences-po.fr/iwanthue/) is a tool to help you choose to "generate and refine palettes of optimally distinct colors." You see the possible colour space in HCL and it uses some maths to try and make as far away from each other in colour space as possible colours. 
 
-Do you have a theme for your colours that you need to stick to. Maybe limit the hue, but have large variance in chroma and lightness.
+If we set chroma to 50-55 and lightness to 65-70 and ask it to generate 4 distinct colours we get.
+
+<div style="height:40px;width:40px;background-color:#afa746;"></div>
+<div style="height:40px;width:40px;background-color:#6e9df7;"></div>
+<div style="height:40px;width:40px;background-color:#5faf66;"></div>
+<div style="height:40px;width:40px;background-color:#f7767d;"></div>
+
+On the surface, these look quite different. 5 out of the 6 of the colour pairs have smiling faces for colour distance so it's easy to tell these colours apart. This drops to 1/6 if we consider colour blindness. But if we desaturate these colours we find these almost all the same. 
+
+| Colour                                                       | Desaturated colour                                           |
+| ------------------------------------------------------------ | ------------------------------------------------------------ |
+| <span style="background-color:#afa746;color:white">#afa746</span> | <span style="background-color:#a4a4a4;color:white">#a4a4a4</span> |
+| <span style="background-color:#6e9df7;color:white">#6e9df7</span> | <span style="background-color:#9e9e9e;color:white">#9e9e9e</span> |
+| <span style="background-color:#5faf66;color:white">#5faf66</span> | <span style="background-color:#9e9e9e;color:white">#9e9e9e</span> |
+| <span style="background-color:#f7767d;color:white">#f7767d</span> | <span style="background-color:#9e9e9e;color:white">#9e9e9e</span> |
+
+So we need to introduce a bigger range of chroma and lightness. Taking inspiration from colorbrewer, their 5 colour qualitative palette has a chroma range from 21-50 and lightness from 45-98. Using these setting we get an example palette of
+
+<div style="height:40px;width:40px;background-color:#c2d373;"></div>
+<div style="height:40px;width:40px;background-color:#019d91;"></div>
+<div style="height:40px;width:40px;background-color:#00a1dd;"></div>
+<div style="height:40px;width:40px;background-color:#3b6ab7;"></div>
+<div style="height:40px;width:40px;background-color:#cd5c8b;"></div>
+
+These work quite well with 6/10 smiley faces for normal vision and 2 of the colour blind modes. 
+
+With I want hue, you can set colour and lock them so if you need to use a certain colour that is possible too, for example if you had to include a brand colour. 
+
+## Conclusion
+
+Now you've got your palette(s), why don't you [test it out in this tool](http://projects.susielu.com/viz-palette). So we didn't quite come up with accessible colours but hopefully I've shown you what to think about to make the best colour palette possible to make it as accessible as possible. 
 
 ### Tools to help you choose colours
 
-For maps - http://tristen.ca/hcl-picker/#/hlc/6/1/15534C/E2E062 
+- Pick start and end points for colours and make a scale between them. Also see it used in an example maps - http://tristen.ca/hcl-picker/#/hlc/6/1/15534C/E2E062 
+- Gregor Aisch's palette tool built off [chroma.js](https://gka.github.io/chroma.js/) - https://gka.github.io/palettes/
+- Pick distinctive colours with I Want Hue - http://tools.medialab.sciences-po.fr/iwanthue/
 
-https://www.vis4.net/blog/2013/09/mastering-multi-hued-color-scales/
+### Colour advice articles
 
-https://gka.github.io/palettes/
+- https://blog.datawrapper.de/colors/
 
-http://tools.medialab.sciences-po.fr/iwanthue/
+- https://blog.datawrapper.de/colorguide/
 
-### Testing our your palettes
+- https://blog.datawrapper.de/choroplethmaps/
 
-Use tools to test out palettes with what they'll look like http://projects.susielu.com/viz-palette
-
-
-
-
-
-References:
+### References:
 
 https://earthobservatory.nasa.gov/blogs/elegantfigures/2013/08/05/subtleties-of-color-part-1-of-6/
 
-
-
 http://www.hclwizard.org/why-hcl/
-
-https://www.vis4.net/blog/2013/09/mastering-multi-hued-color-scales/
 
 https://munsell.com/color-blog/difference-chroma-saturation/
 
