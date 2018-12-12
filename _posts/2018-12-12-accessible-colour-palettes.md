@@ -1,4 +1,7 @@
-# Accessible colour palettes
+---
+layout: post
+title: Accessible-as-possible colour palettes
+---
 
 Colours is a big part of what makes up graphics and making colours accessible is important. 
 
