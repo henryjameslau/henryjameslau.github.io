@@ -6,7 +6,7 @@ Colours is a big part of what makes up graphics and making colours accessible is
 
 The most relevant part of web guidelines regarding colour relate to text. They say for WCAG AA compliance text and images of text should have a minimum contrast ratio of 4.5:1 for normal text and 3:1 for large text.
 
-The first thing to note is that this related to text. Charts and interactives can contain many things other than text such as bars, lines, squares, circles and other shapes. All of these shapes can be big or small or a mix. A good approximate rule is that you'd want your colours to meet the large text contrast ratio for big object like bars and the normal text contrast ratio for smaller objects for example dots or lines.
+The first thing to note is that this related to text. Charts and interactives can contain many things other than text such as bars, lines, squares, circles and other shapes. All of these shapes can be big or small or a mix. Smaller objects would need a higher contrast ratio whereas a strong colour for large blocks would be too strong. 
 
 Also with most interactives and especially maps, you have colours next to each other rather than on a background, so there needs to be some consideration of the spacing between colours that they are distinguishable. 
 
@@ -22,17 +22,15 @@ This works quite well for computers, just add three numbers together to make a c
 
 Image: [Wikimedia](https://commons.wikimedia.org/wiki/File:Cones_SMJ2_E.svg), [CC-BY](https://creativecommons.org/licenses/by/3.0/deed.en)
 
-The three rods are sensitive to different wavelengths of light, with one roughly at blue, yellow and red. But these don't respond linearly (i.e. a light twice as bright doesn't send a signal twice as strong). What this means is that we should consider what colours our eyes are drawn to, what colours make up the data vis and what parts of the visual you'd like to draw attention to.
+The three rods are sensitive to different wavelengths of light, with one roughly at blue, yellow and red. But these don't respond linearly (i.e. a light twice as bright doesn't send a signal twice as strong). What this means is that we should consider what colours our eyes are drawn to, what colours make up the data vis and what parts of the visual you'd like to draw attention to. Perhaps you need to use a colour to highlight a specific aspect. 
 
 #### A different way to think about colour
 
-A alternative way of thinking about colour instead of RGB is Hue, Chroma, and Luminance (HCL). The advantages of using HCL is that it takes into account the way the human eye perceives colour. 
+A alternative way of thinking about colour instead of RGB is Hue, Chroma, and Lightness (HCL). The advantages of using HCL is that it takes into account the way the human eye perceives colour. 
 
-Hue is the shade (red,green,blue), Chroma is the richness of colour (it's a bit like saturation but takes into account the colour of other white objects). Luminance is the perceived brightness of that colour. 
+Hue is the shade (red,green,blue), Chroma is the richness of colour (it's a bit like saturation but takes into account the colour of other white objects). Lightness is the perceived brightness of that colour. 
 
-Whereas RGB could be imagined as a cubic colour space with each dimension going from 0 to 255. HCL works in a cylindrical colour space. Hue ranges from 0-360°. Chroma start at 0 but the maximum can vary with hue and luminance. Luminance is from 0 to 100. 
-
-Luminance is dependent on hue and chroma. 
+Whereas RGB could be imagined as a cubic colour space with each dimension going from 0 to 255. HCL works in a cylindrical colour space. Hue ranges from 0-360°. Chroma start at 0 but the maximum can vary with hue and lightness. lightness is from 0 to 100. Lightness is also dependent on hue and chroma. 
 
 ### Colours to represents your data
 
@@ -56,11 +54,21 @@ Be careful to check what those colours could mean for people. Meaning also vary 
 
 To make a good sequential colour scale, you need to steadily change the lightness of the colours. 
 
-For categorical colour, need to keep chroma and luminance steady.
+For categorical colours, need to keep chroma and lightness steady so colours don't seem stronger than each other but for greyscale you need variation in lightness. 
+
+Getting colours to work to be distinct enough in greyscale helps viewers in colour
+
+Do you have a theme for your colours that you need to stick to. Maybe limit the hue, but have large variance in chroma and lightness.
 
 ### Tools to help you choose colours
 
 For maps - http://tristen.ca/hcl-picker/#/hlc/6/1/15534C/E2E062 
+
+https://www.vis4.net/blog/2013/09/mastering-multi-hued-color-scales/
+
+https://gka.github.io/palettes/
+
+http://tools.medialab.sciences-po.fr/iwanthue/
 
 ### Testing our your palettes
 
