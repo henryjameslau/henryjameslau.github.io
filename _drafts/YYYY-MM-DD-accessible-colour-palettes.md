@@ -2,13 +2,7 @@
 
 Colours is a big part of what makes up graphics and making colours accessible is important. 
 
-### Contrast ratio
-
-The most relevant part of web guidelines regarding colour relate to text. They say for WCAG AA compliance text and images of text should have a minimum contrast ratio of 4.5:1 for normal text and 3:1 for large text.
-
-The first thing to note is that this related to text. Charts and interactives can contain many things other than text such as bars, lines, squares, circles and other shapes. All of these shapes can be big or small or a mix. Smaller objects would need a higher contrast ratio whereas a strong colour for large blocks would be too strong. 
-
-Also with most interactives and especially maps, you have colours next to each other rather than on a background, so there needs to be some consideration of the spacing between colours that they are distinguishable. 
+## The basics
 
 ### Colour space
 
@@ -32,9 +26,25 @@ Hue is the shade (red,green,blue), Chroma is the richness of colour (it's a bit 
 
 Whereas RGB could be imagined as a cubic colour space with each dimension going from 0 to 255. HCL works in a cylindrical colour space. Hue ranges from 0-360°. Chroma start at 0 but the maximum can vary with hue and lightness. lightness is from 0 to 100. Lightness is also dependent on hue and chroma. 
 
-### Colours to represents your data
+## Colour considerations
 
-Be mindful that when using colour to represents your data that it shows the relationships in your data. e.g. if your data is different categories, your colours should be as distinct as possible. If your data is sequential or represents a range, colour should change in a sensible way. Lab and HCL colour spaces calculate colour based on the way the human eye works, rather than how computers calculate colours.
+### Contrast ratio
+
+The most relevant part of web guidelines regarding colour relate to text. They say for WCAG AA compliance text and images of text should have a minimum contrast ratio of 4.5:1 for normal text and 3:1 for large text. Contrast ratio is [calculated by comparing the relative luminance](https://www.w3.org/TR/WCAG20/#contrast-ratiodef) of the lighter colour divided by the [relative luminance](https://www.w3.org/TR/WCAG20/#relativeluminancedef) of the darker colour. What's important to note is that it doesn't depend on hue as people's colour vision are different and it's the contrast in lightness. 
+
+The first thing to note is that this related to text and having enough colour difference to determine letterforms. Charts and interactives can contain many things other than text such as bars, lines, squares, circles and other shapes. All of these shapes can be big or small or a mix. Smaller objects would need a higher contrast ratio whereas a high contrast colour for large blocks would be too strong. 
+
+Also with most interactives and especially maps, you have colours next to each other rather than on a background, so there needs to be some consideration of the spacing between colours that they are distinguishable. 
+
+### Represents your data
+
+Be mindful that when using colour to represents your data that it shows the relationships in your data. e.g. if your data is different categories, your colours should be as distinct as possible. If your data is sequential or represents a range, colour should change in a sensible way.
+
+### Semantics
+
+Colour also has semantic meaning. We're tired of seeing blue for males and pink for females for any dataset, but it's hard to break away from the associated meaning of those colours. Datawrapper did [a recent review of what colours people are using to represent gender](https://blog.datawrapper.de/gendercolor/). 
+
+Be careful to check what those colours could mean for people. Meaning also vary culturally so may mean different things outside what you're used to.
 
 ### Colour blindness
 
@@ -44,15 +54,71 @@ The best write up I've seen about testing colours in charts for colourblindness 
 
 You can [check your colour palette in datawrapper](https://blog.datawrapper.de/colorblind-check/) and check if they give any warnings. 
 
-### Semantics
+## How to pick colours
 
-Colour also has semantic meaning. We're tired of seeing blue for males and pink for females for any dataset, but it's hard to break away from the associated meaning of those colours. Datawrapper did [a recent review of what colours people are using to represent gender](https://blog.datawrapper.de/gendercolor/). 
+So now we've learnt about colour and we're aware of all the considerations we have to take we can start choosing colours.
 
-Be careful to check what those colours could mean for people. Meaning also vary culturally so may mean different things outside what you're used to.
+Let's start with the easy one first.
 
-### What to think about when picking colours
+### Sequential colours 
 
-To make a good sequential colour scale, you need to steadily change the lightness of the colours. 
+To make a good sequential colour scale, you need to vary chroma and lightness of the colours through the scale. 
+
+Let's start with a colour that low in chroma and high in lightness. This is going to be a pale blue.
+
+<div style="height:40px;width:40px;background-color:#eff3ff;"></div>
+
+We want another colour that's the opposite so high chroma and low in lightness.
+
+<div style="height:40px;width:40px;background-color:#08519c;"></div>
+
+And let's make a scale that add three steps in between.
+
+<div style="height:40px;width:40px;background-color:#eff3ff;"></div>
+<div style="height:40px;width:40px;background-color:#bdd7e7;"></div>
+<div style="height:40px;width:40px;background-color:#6baed6;"></div>
+<div style="height:40px;width:40px;background-color:#3182bd;"></div>
+<div style="height:40px;width:40px;background-color:#08519c;"></div>
+
+| Colour                                                       | Chroma | Lightness | Hue     |
+| ------------------------------------------------------------ | ------ | --------- | ------- |
+| <span style="background-color:#eff3ff">#eff3ff</span>        | 6.275  | 95.86     | 277.995 |
+| <span style="background-color:#bdd7e7">#bdd7e7</span>        | 11.999 | 84.58     | 243.693 |
+| <span style="background-color:#6baed6;color:white">#6baed6</span> | 28.73  | 68.205    | 248.879 |
+| <span style="background-color:#6baed6;color:white">#3182bd</span> | 38.134 | 52.164    | 263.369 |
+| <span style="background-color:#6baed6;color:white">#08519c</span> | 47.432 | 34.672    | 281.958 |
+
+Analysing the colours we can see chroma increases and lightness decreases. If you think this palette looks familiar you'd be right. It's the [blue palette from colorbrewer](http://colorbrewer2.org/#type=sequential&scheme=Blues&n=5).
+
+This is what is called a single hue as although the hue varies, it's pretty constant.
+
+##### Multi-hue sequential palettes
+
+Although this colour scale is good, there are benefits from using multi-hue sequences.  From Gregor Aisch [article](https://www.vis4.net/blog/2013/09/mastering-multi-hued-color-scales/) on colour
+
+> Hue variation provides a better color contrast and thus makes the colors easier to differentiate.
+
+But as the creators of colorbrewer say, they are tricky to create because 
+
+> "[all three dimensions of colour are changing simultaneously](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.361.6082&rep=rep1&type=pdf)".
+
+
+
+Luckily for us Gregor Aisch has created [a tool to help create smooth palettes](http://gka.github.io/palettes/) by interpolating between colours in three dimensional colour space with bezier curves. I highly recommend reading his article [Mastering Multi-hued Color Scales with Chroma.js](https://www.vis4.net/blog/2013/09/mastering-multi-hued-color-scales/) to understand more.  He also includes a neat trick to make sure lightness increases linearly. 
+
+#### Divergent palettes
+
+Now we know how to make sequential palettes, we can make divergent palettes by sticking two sequential ones back to back. [Gregor has even made a tool for that.](https://gka.github.io/palettes/#diverging|c0=darkred,lightyellow|c1=lightyellow,darkblue|steps=7|bez0=1|bez1=1|coL0=1|coL1=1) 
+
+#### Some notes
+
+As advised by graphiq, [choose colours that make sense](https://blog.graphiq.com/finding-the-right-color-palettes-for-data-visualizations-fcd4e707a283). This generally means faint colours for low numbers  and stronger colours for high numbers, although this might depend on your data.
+
+You are going to need to think through the starting points for your colours.  The more colours you have in your scale, the larger the colour difference between the start and end point. 
+
+
+
+#### Categorical colours 
 
 For categorical colours, need to keep chroma and lightness steady so colours don't seem stronger than each other but for greyscale you need variation in lightness. 
 
@@ -79,6 +145,10 @@ Use tools to test out palettes with what they'll look like http://projects.susie
 
 
 References:
+
+https://earthobservatory.nasa.gov/blogs/elegantfigures/2013/08/05/subtleties-of-color-part-1-of-6/
+
+
 
 http://www.hclwizard.org/why-hcl/
 
