@@ -111,7 +111,7 @@ Luckily for us Gregor Aisch has created [a tool to help create smooth palettes](
 
 #### Divergent palettes
 
-Now we know how to make sequential palettes, we can make divergent palettes by sticking two sequential ones back to back. [Gregor has even made a tool for that.](https://gka.github.io/palettes/#diverging|c0=darkred,lightyellow|c1=lightyellow,darkblue|steps=7|bez0=1|bez1=1|coL0=1|coL1=1) 
+Now we know how to make sequential palettes, we can make divergent palettes by sticking two sequential ones back to back. [Gregor has even made a tool for that.](https://gka.github.io/palettes/#diverging) 
 
 #### Some notes
 
@@ -163,23 +163,19 @@ Now you've got your palette(s), why don't you [test it out in this tool](http://
 
 ### Tools to help you choose colours
 
-- Pick start and end points for colours and make a scale between them. Also see it used in an example maps - http://tristen.ca/hcl-picker/#/hlc/6/1/15534C/E2E062 
-- Gregor Aisch's palette tool built off [chroma.js](https://gka.github.io/chroma.js/) - https://gka.github.io/palettes/
-- Pick distinctive colours with I Want Hue - http://tools.medialab.sciences-po.fr/iwanthue/
+- [HCL-picker](http://tristen.ca/hcl-picker/#/hlc/6/1/15534C/E2E062 ). Pick start and end points for colours and make a scale between them. Also see it used in an example maps
+- [Gregor Aisch's palette tool](https://gka.github.io/palettes/) built off [chroma.js](https://gka.github.io/chroma.js/)
+- Pick distinctive colours with [I Want Hue](http://tools.medialab.sciences-po.fr/iwanthue/)
 
 ### Colour advice articles
 
-- https://blog.datawrapper.de/colors/
+Datawrapper articles on [colour](https://blog.datawrapper.de/colors/), [guide to colour](https://blog.datawrapper.de/colorguide/) and [colour for choropleth maps](https://blog.datawrapper.de/choroplethmaps/)
 
-- https://blog.datawrapper.de/colorguide/
+##### References:
 
-- https://blog.datawrapper.de/choroplethmaps/
+[NASA subtleties of colour](https://earthobservatory.nasa.gov/blogs/elegantfigures/2013/08/05/subtleties-of-color-part-1-of-6/)
 
-### References:
+[HCL wizard](http://www.hclwizard.org/why-hcl/)
 
-https://earthobservatory.nasa.gov/blogs/elegantfigures/2013/08/05/subtleties-of-color-part-1-of-6/
-
-http://www.hclwizard.org/why-hcl/
-
-https://munsell.com/color-blog/difference-chroma-saturation/
+[Munsell Colour System](https://munsell.com/color-blog/difference-chroma-saturation/) 
 
