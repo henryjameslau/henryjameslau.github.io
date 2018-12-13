@@ -27,7 +27,7 @@ A alternative way of thinking about colour instead of RGB is Hue, Chroma, and Li
 
 Hue is the shade (red,green,blue), Chroma is the richness of colour (it's a bit like saturation but takes into account the colour of other white objects). Lightness is the perceived brightness of that colour. 
 
-Whereas RGB could be imagined as a cubic colour space with each dimension going from 0 to 255. HCL works in a cylindrical colour space. Hue ranges from 0-360°. Chroma start at 0 but the maximum can vary with hue and lightness. lightness is from 0 to 100. Lightness is also dependent on hue and chroma. 
+Whereas RGB could be imagined as a cubic colour space with each dimension going from 0 to 255. HCL works in a cylindrical colour space. Hue ranges from 0-360°. Chroma start at 0 but the maximum can vary with hue and lightness. Lightness is from 0 to 100. Lightness is also dependent on hue and chroma. 
 
 ## Colour considerations
 
@@ -37,7 +37,7 @@ The most relevant part of web guidelines regarding colour relate to text. They s
 
 The first thing to note is that this related to text and having enough colour difference to determine letterforms. Charts and interactives can contain many things other than text such as bars, lines, squares, circles and other shapes. All of these shapes can be big or small or a mix. Smaller objects would need a higher contrast ratio whereas a high contrast colour for large blocks would be too strong. 
 
-Also with most interactives and especially maps, you have colours next to each other rather than on a background, so there needs to be some consideration of the spacing between colours that they are distinguishable. 
+Also with most interactives and especially maps, you have colours next to each other rather than on a background. So there needs to be some consideration of the difference between colours and that you have enough that they are distinguishable. 
 
 ### Represents your data
 
@@ -93,11 +93,11 @@ And let's make a scale that add three steps in between.
 
 Analysing the colours we can see chroma increases and lightness decreases. If you think this palette looks familiar you'd be right. It's the [blue palette from colorbrewer](http://colorbrewer2.org/#type=sequential&scheme=Blues&n=5).
 
-This is what is called a single hue as although the hue varies, it's pretty constant.
+This is a single hue palette as although the hue varies, it's pretty constant.
 
 ##### Multi-hue sequential palettes
 
-Although this colour scale is good, there are benefits from using multi-hue sequences.  From Gregor Aisch [article](https://www.vis4.net/blog/2013/09/mastering-multi-hued-color-scales/) on colour
+Although this colour scale is good, there are benefits from using multi-hue sequences.  From Gregor Aisch's [article](https://www.vis4.net/blog/2013/09/mastering-multi-hued-color-scales/) on colour
 
 > Hue variation provides a better color contrast and thus makes the colors easier to differentiate.
 
@@ -117,7 +117,7 @@ Now we know how to make sequential palettes, we can make divergent palettes by s
 
 As advised by graphiq, [choose colours that make sense](https://blog.graphiq.com/finding-the-right-color-palettes-for-data-visualizations-fcd4e707a283). This generally means faint colours for low numbers  and stronger colours for high numbers, although this might depend on your data.
 
-You are going to need to think through the starting points for your colours.  The more colours you have in your scale, the larger the colour difference between the start and end point, for example see how Colorbrewer does it (from [this paper](https://www.tandfonline.com/doi/pdf/10.1559/152304003100010929)). 
+You are going to need to think through the starting points for your colours.  The more colours you have in your scale, the larger the colour difference between the start and end point so you're going to have to move your start and end further away from each other. For example see how Colorbrewer does it (from [this paper](https://www.tandfonline.com/doi/pdf/10.1559/152304003100010929)). 
 
 ![Colorbrewer divergent colour palettes](https://raw.githubusercontent.com/henryjameslau/henryjameslau.github.io/master/_media/colorbrewer-diverging-palettes.png)
 
@@ -127,16 +127,16 @@ Choosing distinct colours is hard. We know that variation in chroma and lightnes
 
 For categorical colours, the difficulty comes when we need to keep chroma and lightness similar so colours don't seem stronger than each other. But if we want the colours to work in greyscale you need variation in lightness. Getting some difference in lightness also helps viewers with colour so they aren't relying on hue alone.
 
-[I want hue](http://tools.medialab.sciences-po.fr/iwanthue/) is a tool to help you choose to "generate and refine palettes of optimally distinct colors." You see the possible colour space in HCL and it uses some maths to try and make as far away from each other in colour space as possible colours. 
+[I Want Hue](http://tools.medialab.sciences-po.fr/iwanthue/) is a tool to help you choose to "generate and refine palettes of optimally distinct colors." You set the possible colour space in HCL and it uses some maths to pick colours as far away from each other in colour space. 
 
-If we set chroma to 50-55 and lightness to 65-70 and ask it to generate 4 distinct colours we get.
+If we set the chroma range to 50-55 and lightness to 65-70 and ask it to generate 4 distinct colours we get.
 
 <div style="height:40px;width:40px;background-color:#afa746;"></div>
 <div style="height:40px;width:40px;background-color:#6e9df7;"></div>
 <div style="height:40px;width:40px;background-color:#5faf66;"></div>
 <div style="height:40px;width:40px;background-color:#f7767d;"></div>
 
-On the surface, these look quite different. I want hue looks at the difference between colours and gives them a grading on how well they do. 5 out of the 6 of the colour pairs have smiling faces for colour distance so it's easy to tell these colours apart. This drops to 1/6 if we consider colour blindness. But if we desaturate these colours we find these almost all the same. 
+On the surface, these look quite different. I Want Hue looks at the difference between colours and gives them a grading on how well they do. 5 out of the 6 of the colour pairs have smiling faces for colour distance so it's easy to tell these colours apart. This drops to 1/6 if we consider colour blindness. But if we desaturate these colours we find these almost all the same. 
 
 | Colour                                                       | Desaturated colour                                           |
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
@@ -155,7 +155,7 @@ So we need to introduce a bigger range of chroma and lightness. Taking inspirati
 
 These work quite well with 6/10 smiley faces for normal vision and 2 of the colour blind modes. 
 
-With I want hue, you can set colours and lock them so if you need to use a certain colour that is possible too, for example if you had to include one brand colour and find 4 other colours there were equally distinct. 
+With I Want Hue, you can set colours and lock them so if you need to use a certain colour that is possible too, for example if you had to include one brand colour and find 4 other colours there were equally distinct. 
 
 ## Conclusion
 
