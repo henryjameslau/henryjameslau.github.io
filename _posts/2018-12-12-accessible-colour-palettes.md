@@ -9,7 +9,7 @@ Colours is a big part of what makes up graphics and making colours accessible is
 
 ### Colour space
 
-We're used to thinking of colours in terms of red, green and blue. Add these colours together and you get white. We can describe colours using RGB, breaking up each colour channel into 256 parts. Increase the red channel and you get <span style="color:rgb(255,0,0)">red</span>. Add the blue channel and you get <span style="color:rgb(255,0,255)">purple</span>. Add the green channel and you'll get <span style="color:rgb(255,255,255)">white</span>.
+We're used to thinking of colours in terms of red, green and blue. Add these colours together and you get white. We can describe colours using RGB, breaking up each colour channel into 256 parts. Increase the red channel and you get <span style="background-color:rgb(255,0,0)">red</span>. Add the blue channel and you get <span style="background-color:rgb(255,0,255)">purple</span>. Add the green channel and you'll get <span style="border:1px solid black;background-color:rgb(255,255,255)">white</span>.
 
 #### The human eye
 
@@ -88,8 +88,8 @@ And let's make a scale that add three steps in between.
 | <span style="background-color:#eff3ff">#eff3ff</span>        | 6.275  | 95.86     | 277.995 |
 | <span style="background-color:#bdd7e7">#bdd7e7</span>        | 11.999 | 84.58     | 243.693 |
 | <span style="background-color:#6baed6;color:white">#6baed6</span> | 28.73  | 68.205    | 248.879 |
-| <span style="background-color:#6baed6;color:white">#3182bd</span> | 38.134 | 52.164    | 263.369 |
-| <span style="background-color:#6baed6;color:white">#08519c</span> | 47.432 | 34.672    | 281.958 |
+| <span style="background-color:#3182bd;color:white">#3182bd</span> | 38.134 | 52.164    | 263.369 |
+| <span style="background-color:#08519c;color:white">#08519c</span> | 47.432 | 34.672    | 281.958 |
 
 Analysing the colours we can see chroma increases and lightness decreases. If you think this palette looks familiar you'd be right. It's the [blue palette from colorbrewer](http://colorbrewer2.org/#type=sequential&scheme=Blues&n=5).
 
@@ -136,7 +136,7 @@ If we set chroma to 50-55 and lightness to 65-70 and ask it to generate 4 distin
 <div style="height:40px;width:40px;background-color:#5faf66;"></div>
 <div style="height:40px;width:40px;background-color:#f7767d;"></div>
 
-On the surface, these look quite different. 5 out of the 6 of the colour pairs have smiling faces for colour distance so it's easy to tell these colours apart. This drops to 1/6 if we consider colour blindness. But if we desaturate these colours we find these almost all the same. 
+On the surface, these look quite different. I want hue looks at the difference between colours and gives them a grading on how well they do. 5 out of the 6 of the colour pairs have smiling faces for colour distance so it's easy to tell these colours apart. This drops to 1/6 if we consider colour blindness. But if we desaturate these colours we find these almost all the same. 
 
 | Colour                                                       | Desaturated colour                                           |
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
@@ -155,11 +155,11 @@ So we need to introduce a bigger range of chroma and lightness. Taking inspirati
 
 These work quite well with 6/10 smiley faces for normal vision and 2 of the colour blind modes. 
 
-With I want hue, you can set colour and lock them so if you need to use a certain colour that is possible too, for example if you had to include a brand colour. 
+With I want hue, you can set colours and lock them so if you need to use a certain colour that is possible too, for example if you had to include one brand colour and find 4 other colours there were equally distinct. 
 
 ## Conclusion
 
-Now you've got your palette(s), why don't you [test it out in this tool](http://projects.susielu.com/viz-palette). So we didn't quite come up with accessible colours but hopefully I've shown you what to think about to make the best colour palette possible to make it as accessible as possible. 
+Now you've got your palette(s), why don't you [test it out in Susie Lu's palette tool](http://projects.susielu.com/viz-palette). So we didn't quite come up with accessible colours but hopefully I've shown you what to think about to make the best colour palette possible to make it as accessible as possible. 
 
 ### Tools to help you choose colours
 
