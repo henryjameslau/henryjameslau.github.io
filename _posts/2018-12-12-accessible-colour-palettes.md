@@ -105,13 +105,13 @@ But as the creators of colorbrewer say, they are tricky to create because
 
 > "[all three dimensions of colour are changing simultaneously](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.361.6082&rep=rep1&type=pdf)".
 
-
+(The reason why multi-hue palettes are better are explained in more depth in [this article](https://earthobservatory.nasa.gov/blogs/elegantfigures/2013/08/06/subtleties-of-color-part-2-of-6/). )
 
 Luckily for us Gregor Aisch has created [a tool to help create smooth palettes](http://gka.github.io/palettes/) by interpolating between colours in three dimensional colour space with bezier curves. I highly recommend reading his article [Mastering Multi-hued Color Scales with Chroma.js](https://www.vis4.net/blog/2013/09/mastering-multi-hued-color-scales/) to understand more.  He also includes a neat trick to make sure lightness increases linearly. 
 
 #### Divergent palettes
 
-Now we know how to make sequential palettes, we can make divergent palettes by sticking two sequential ones back to back. [Gregor has even made a tool for that.](https://gka.github.io/palettes/#diverging) 
+Now we know how to make sequential palettes, we can make divergent palettes by sticking two sequential ones back to back. You may need to put in a neutral shade in the middle. [Gregor has even made a tool for that.](https://gka.github.io/palettes/#diverging) 
 
 #### Some notes
 
