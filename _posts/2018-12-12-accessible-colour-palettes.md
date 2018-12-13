@@ -117,7 +117,7 @@ Now we know how to make sequential palettes, we can make divergent palettes by s
 
 As advised by graphiq, [choose colours that make sense](https://blog.graphiq.com/finding-the-right-color-palettes-for-data-visualizations-fcd4e707a283). This generally means faint colours for low numbers  and stronger colours for high numbers, although this might depend on your data.
 
-You are going to need to think through the starting points for your colours.  The more colours you have in your scale, the larger the colour difference between the start and end point so you're going to have to move your start and end further away from each other. For example see how Colorbrewer does it (from [this paper](https://www.tandfonline.com/doi/pdf/10.1559/152304003100010929)). 
+You are going to need to think through the starting points for your colours.  The more colours you have in your scale, the more you'll need to move your start and end further away from each other, to ensure your colours have enough distance between them. For example see how Colorbrewer does it (from [this paper](https://www.tandfonline.com/doi/pdf/10.1559/152304003100010929)). 
 
 ![Colorbrewer divergent colour palettes](https://raw.githubusercontent.com/henryjameslau/henryjameslau.github.io/master/_media/colorbrewer-diverging-palettes.png)
 
