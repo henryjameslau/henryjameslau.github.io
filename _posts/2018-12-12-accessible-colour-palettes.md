@@ -23,7 +23,7 @@ The three rods are sensitive to different wavelengths of light, with one roughly
 
 #### A different way to think about colour
 
-A alternative way of thinking about colour instead of RGB is Hue, Chroma, and Lightness (HCL). The advantages of using HCL is that it takes into account the way the human eye perceives colour. 
+An alternative way of thinking about colour instead of RGB is Hue, Chroma, and Lightness (HCL). The advantages of using HCL is that it takes into account the way the human eye perceives colour. 
 
 Hue is the shade (red,green,blue), Chroma is the richness of colour (it's a bit like saturation but takes into account the colour of other white objects). Lightness is the perceived brightness of that colour. 
 
