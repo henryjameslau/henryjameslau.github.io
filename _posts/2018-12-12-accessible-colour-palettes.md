@@ -183,3 +183,5 @@ Datawrapper articles on [colour](https://blog.datawrapper.de/colors/), [guide to
 
 [The rainbow is dead...long live the rainbow!](https://mycarta.wordpress.com/2012/05/29/the-rainbow-is-dead-long-live-the-rainbow-series-outline/)
 
+[Colour in data visualisation](https://briancort.com/colour-in-data-visualization-part-2-applications/)
+
