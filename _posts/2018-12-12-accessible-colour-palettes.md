@@ -47,7 +47,7 @@ Be mindful that when using colour to represents your data that it shows the rela
 
 Colour also has semantic meaning. We're tired of seeing blue for males and pink for females for any dataset, but it's hard to break away from the associated meaning of those colours. Datawrapper did [a recent review of what colours people are using to represent gender](https://blog.datawrapper.de/gendercolor/). 
 
-Be careful to check what those colours could mean for people. Meaning also vary culturally so may mean different things outside what you're used to.
+Be careful to check what those colours could mean for people. Meanings also vary culturally and with language (e.g see [this wikipedia article on blue-green](https://en.wikipedia.org/wiki/Blue%E2%80%93green_distinction_in_language)) so may mean different things outside what you're used to. 
 
 ### Colour blindness
 
@@ -166,6 +166,8 @@ Now you've got your palette(s), why don't you [test it out in Susie Lu's palette
 - [HCL-picker](http://tristen.ca/hcl-picker/#/hlc/6/1/15534C/E2E062 ). Pick start and end points for colours and make a scale between them. Also see it used in an example maps
 - [Gregor Aisch's palette tool](https://gka.github.io/palettes/) built off [chroma.js](https://gka.github.io/chroma.js/)
 - Pick distinctive colours with [I Want Hue](http://tools.medialab.sciences-po.fr/iwanthue/)
+- David Johnstone's [Cubehelix gradient tool](http://davidjohnstone.net/pages/cubehelix-gradient-picker)
+- [HSLuv colour picker tool](http://www.hsluv.org/)
 
 ### Colour advice articles
 
@@ -178,4 +180,6 @@ Datawrapper articles on [colour](https://blog.datawrapper.de/colors/), [guide to
 [HCL wizard](http://www.hclwizard.org/why-hcl/)
 
 [Munsell Colour System](https://munsell.com/color-blog/difference-chroma-saturation/) 
+
+[The rainbow is dead...long live the rainbow!](https://mycarta.wordpress.com/2012/05/29/the-rainbow-is-dead-long-live-the-rainbow-series-outline/)
 
