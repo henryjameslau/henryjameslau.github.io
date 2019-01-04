@@ -168,6 +168,7 @@ Now you've got your palette(s), why don't you [test it out in Susie Lu's palette
 - Pick distinctive colours with [I Want Hue](http://tools.medialab.sciences-po.fr/iwanthue/)
 - David Johnstone's [Cubehelix gradient tool](http://davidjohnstone.net/pages/cubehelix-gradient-picker)
 - [HSLuv colour picker tool](http://www.hsluv.org/)
+- [Colorgorical](http://vrl.cs.brown.edu/color)
 
 ### Colour advice articles
 
