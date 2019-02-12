@@ -186,3 +186,4 @@ Datawrapper articles on [colour](https://blog.datawrapper.de/colors/), [guide to
 
 [Colour in data visualisation](https://briancort.com/colour-in-data-visualization-part-2-applications/)
 
+[MacAdam ellipse](https://en.wikipedia.org/wiki/MacAdam_ellipse)
