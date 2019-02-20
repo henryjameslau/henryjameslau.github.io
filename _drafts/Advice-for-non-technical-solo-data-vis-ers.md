@@ -15,3 +15,21 @@ Also makes me really conscious of helping that solo person trying to do data vis
 
 
 So here is my advice. 
+
+
+
+- recently been speaking to other organisations that have a few people working on data vis or even part of some people on data vis
+- Core elements of skills
+  - journalistics
+  - design
+  - statistical literacy
+  - technical know how
+  - nose for a story
+- Tips on how to get started
+  - Get good grounding of principles
+  - Training, resources for building up knowledge
+  - Squeeze colleagues for all their nouse
+  - Sit down with the data, interrogate it, examine it, interview it
+  - Use off the shelf tools to get your shortcuts
+- Project flow
+- How we choose projects, prioritise and pick one project. E.g. the pudding, last for a long time. 
