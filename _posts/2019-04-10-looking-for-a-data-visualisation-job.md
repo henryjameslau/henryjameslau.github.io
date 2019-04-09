@@ -1,5 +1,5 @@
 ---
-layout:post
+layout: post
 title: Looking for a data visualisation job?
 ---
 
