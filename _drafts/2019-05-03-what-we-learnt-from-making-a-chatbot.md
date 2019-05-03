@@ -17,6 +17,8 @@ What was more difficult was trying to work out occupation. You could ask people 
 
 In the end, we decided to let users type in an occupation and let the [ONS occupation coding tool](https://onsdigital.github.io/dp-classification-tools/standard-occupational-classification/ONS_SOC_occupation_coding_tool.html) match what the input to the SOC. This introduced a text box for people to use in the chat interface. This wasn't ideal as on mobile the keyboard takes up a lot of space. But we felt this was better than navigating the SOC hierarchy. 
 
+![Mobile screenshot](https://github.com/henryjameslau/henryjameslau.github.io/raw/master/_media/chatbot-mobile.png)
+
 The article got widely picked up but the [BBC](https://www.bbc.co.uk/news/business-47691078) pushed a lot of traffic to our site. 
 
 Our standard timeframe for considering metrics is a week. After a week we had almost 14 thousand unique visits, 11 thousand of which happened during the first day.
