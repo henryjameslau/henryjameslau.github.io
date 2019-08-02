@@ -37,7 +37,7 @@ Once they were happy with the process, I recreated the calculations in the brows
 
 We wanted a simple way to interact with the controls and I found [d3-simple-slider](https://github.com/johnwalley/d3-simple-slider), a library for making sliders. Initially we had 4 sliders going horizontally but this took up quite a lot of space so we went for 4 vertical ones which looked like a mixing desk.
 
-![Sketch of design](D:\Github\henryjameslau.github.io\_media\screenshot_2019-03-28_at_12.09.05.png)
+![Sketch of design](https://www.henrylau.co.uk/_media/screenshot_2019-03-28_at_12.09.05.png)
 
 The sliders took a bit of extra styling and messing around with the library so it's ended up quite customised but I'm pleased with the result. For mobile, we show one horizontal slider at a time and store the results in hidden inputs. 
 
@@ -67,12 +67,9 @@ We looked at the OADR in 2042 people were getting from their chosen inputs. The 
 We can also see that people like round numbers as well as the ends of the scales. Here's what users selected for migration with peaks on the hundred thousands.
 
 <iframe title="What users selected for migration" aria-label="Interactive line chart" id="datawrapper-chart-2Dv7Y" src="//datawrapper.dwcdn.net/2Dv7Y/1/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="400"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",function(a){if(void 0!==a.data["datawrapper-height"])for(var e in a.data["datawrapper-height"]){var t=document.getElementById("datawrapper-chart-"+e)||document.querySelector("iframe[src*='"+e+"']");t&&(t.style.height=a.data["datawrapper-height"][e]+"px")}})}();</script>
-
 And here's fertility. The peak around 1.75 is when the model loads. There's big peak around the round numbers (1,2,3) and the ends of the scales. 
 
 <iframe title="What users chose for fertility" aria-label="Interactive line chart" id="datawrapper-chart-PVl0W" src="//datawrapper.dwcdn.net/PVl0W/1/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="400"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",function(a){if(void 0!==a.data["datawrapper-height"])for(var e in a.data["datawrapper-height"]){var t=document.getElementById("datawrapper-chart-"+e)||document.querySelector("iframe[src*='"+e+"']");t&&(t.style.height=a.data["datawrapper-height"][e]+"px")}})}();</script>
-
-
 
 ### Feedback
 
