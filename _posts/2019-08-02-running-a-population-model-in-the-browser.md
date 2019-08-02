@@ -37,7 +37,7 @@ Once they were happy with the process, I recreated the calculations in the brows
 
 We wanted a simple way to interact with the controls and I found [d3-simple-slider](https://github.com/johnwalley/d3-simple-slider), a library for making sliders. Initially we had 4 sliders going horizontally but this took up quite a lot of space so we went for 4 vertical ones which looked like a mixing desk.
 
-![Sketch of design](https://www.henrylau.co.uk/_media/screenshot_2019-03-28_at_12.09.05.png)
+![Sketch of design](https://github.com/henryjameslau/henryjameslau.github.io/raw/master/_media/screenshot_2019-03-28_at_12.09.05.png)
 
 The sliders took a bit of extra styling and messing around with the library so it's ended up quite customised but I'm pleased with the result. For mobile, we show one horizontal slider at a time and store the results in hidden inputs. 
 
