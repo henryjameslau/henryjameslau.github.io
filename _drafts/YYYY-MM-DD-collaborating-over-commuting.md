@@ -61,4 +61,3 @@ There was lots of cross-over of people's expertise. I remember Roger commenting 
 We had hoped to launch the project with a media partner but unfortunately that didn't work out.
 
 #### Takeaway 8: Sometimes things don't go the way you plan and you have to make the most of it
-
