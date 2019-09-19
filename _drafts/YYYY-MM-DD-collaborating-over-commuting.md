@@ -16,9 +16,13 @@ It felt like the success was down to this being our most collaborative project y
 
 ## The idea
 
-In January I was trying to get an idea off the ground around who does the same commute as you. I emailed some people in our policy team, that lead to another meeting with our labour market team. The meeting notes got circulated round to even more people.
+In January I was trying to get an idea off the ground around who does the same commute as you. I’m part of the digital content team, who are responsible for communicating our data to a broad, inquiring citizen audience. Our users are interested in how they fit into our statistics, hence I thought we could show their commute compared with others like them. 
 
-From those meeting notes, Tom Williams got in touch with Phil Leake, a data journalist in our team, to show him some work that Vahé in methodology had done looking at the gender differences in commuting distance. Once we put those two elements together, we had the core of our idea. 
+I emailed some people in our policy team, that lead to another meeting with our labour market team. The meeting notes got circulated round to even more people.
+
+Separately, Vahé in our methodology division had been working on some analysis of gender differences in commute time, having found a gap in the literature regarding contributors to the gender pay gap. His analysis was aimed at policymakers and expert users, but the underlying data with people’s places of residence and work had links back to my idea.
+
+Fortunately, Tom Williams, from the labour market team and involved in our initial meeting, was aware of both strands of work. So he got in touch with Phil Leake, a data journalist in our team. Once we put those two elements together, we had the core of our idea.
 
 #### Takeaway 1: Putting the right people together takes multiple attempts
 
