@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Commuting: a case study on collaborating
+title: Commuting - a case study on collaborating
 ---
 
 Commuting: most people do it, most people hate it. We know[ men do more of the longer commutes](https://www.ons.gov.uk/employmentandlabourmarket/peopleinwork/employmentandemployeetypes/articles/thecommutinggapmenaccountfor65ofcommuteslastingmorethananhour/2018-11-07), and our newest analysis published at the beginning of September showed that[ women are more likely to leave their job over a long commute](https://www.ons.gov.uk/employmentandlabourmarket/peopleinwork/earningsandworkinghours/articles/thecommutinggapwomenaremorelikelythanmentoleavetheirjoboveralongcommute/2019-09-04).
