@@ -5,7 +5,7 @@ title: Visualising Odds Ratio
 
 On Thursday 7 May, the ONS published [analysis comparing deaths involving COVID-19 by ethnicity](https://www.ons.gov.uk/peoplepopulationandcommunity/birthsdeathsandmarriages/deaths/articles/coronavirusrelateddeathsbyethnicgroupenglandandwales/2march2020to10april2020). There's an excellent [summary](https://twitter.com/ONS/status/1258313535987294209) on twitter but the headline is that when taking into account age and other socio-demographic factors, such as deprivation, household composition, education, health and disability, there is higher risk for some ethnic groups of a COVID related death compared to those of white ethnicity. The full article goes into more detail including some of the caveats e.g. the strengths and weakness of using ethnicity data from the 2011 Census and not being able to use occupation. 
 
-### How we presented odds ratios
+## How we presented odds ratios
 
 What I'd like to do is talk a lot about the visuals we produced for the article. 
 
@@ -29,11 +29,11 @@ It's quite a hard concept to understand but we try out best to guide people with
 
 4) We've changed the scales to factors of likelihood. We could have plotted the raw numbers but by using phrases it makes it more understandable. 
 
-### What others did
+## What others did
 
 This story was covered in other publications including [the Guardian](https://www.theguardian.com/world/2020/may/07/black-people-four-times-more-likely-to-die-from-covid-19-ons-finds), [BBC](https://www.bbc.co.uk/news/uk-52574931), [FT](https://www.ft.com/content/da6597c6-dc43-4d08-8812-30ad06c3b682)(£) and [Daily Mail](https://www.dailymail.co.uk/news/article-8296289/Black-people-FOUR-TIMES-likely-die-coronavirus-white-people.html). I've picked these out in particular because they've chosen to rechart the data in their own style. The Daily Mail is an interesting example as they redid the numbers in their own style and also included a screenshot of our charts.
 
-#### The BBC
+### The BBC
 
 ![](https://raw.githubusercontent.com/henryjameslau/henryjameslau.github.io/master/_media/BBC1.png)
 
@@ -45,7 +45,7 @@ This also causes an issue when they chart the risks for women.
 
 The Chinese ethnic group should actually be plotted as a bar between 0.8 and 1.
 
-#### The Guardian
+### The Guardian
 
 ![](https://raw.githubusercontent.com/henryjameslau/henryjameslau.github.io/master/_media/Guardian.png)
 
@@ -55,7 +55,7 @@ The Guardian do something similar, plotting bars from 0. They actually make a mi
 
 Their second chart looks to display the different models on the same chart and allow a comparison between the two. We were thinking of doing something similar but it was felt that the confidence intervals were important to show here which would make it quite messy. Without the confidence interval you can't tell if the different between the models is significant, which in 3 of the cases is not. This means that the difference between the models might be zero. It also doesn't show the confidence intervals with relation to 1. The axis is also unclear as it isn't said that the likelihood of 1 is equal to the comparison.
 
-#### Financial Times
+### Financial Times
 
 ![](https://raw.githubusercontent.com/henryjameslau/henryjameslau.github.io/master/_media/FT2.png)
 
