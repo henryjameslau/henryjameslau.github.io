@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Visualising Odds Ratio
+title: Against all odds: how to visualise odds ratios to non-expert audiences
 ---
 
 On Thursday 7 May, the ONS published [analysis comparing deaths involving COVID-19 by ethnicity](https://www.ons.gov.uk/peoplepopulationandcommunity/birthsdeathsandmarriages/deaths/articles/coronavirusrelateddeathsbyethnicgroupenglandandwales/2march2020to10april2020). There's an excellent [summary](https://twitter.com/ONS/status/1258313535987294209) on twitter but the headline is that when taking into account age and other socio-demographic factors, such as deprivation, household composition, education, health and disability, there is higher risk for some ethnic groups of a COVID related death compared to those of white ethnicity. The full article goes into more detail including some of the caveats e.g. the strengths and weakness of using ethnicity data from the 2011 Census and not being able to use occupation. 
