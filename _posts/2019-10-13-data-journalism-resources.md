@@ -8,6 +8,7 @@ A friend asked me for some resources in helping a team developing some data jour
 ### Workflow
 
 - [Resources and training material from the NYT](https://open.nytimes.com/how-we-helped-our-reporters-learn-to-love-spreadsheets-adc43a93b919)
+
 - [The Guardian's workflow from 2011](https://www.theguardian.com/news/datablog/2011/apr/07/data-journalism-workflow)
 
 - [SciDev.net's workflow](https://www.scidev.net/global/journalism/practical-guide/data-journalism-how-to-find-stories-in-numbers.html)
@@ -18,7 +19,7 @@ A friend asked me for some resources in helping a team developing some data jour
 
 - [DataJournalism.com](http://DataJournalism.com) is a massive resource from EJC and Google News, especially the handbook. Lots of advice from experience and articles
 
-- [Paul Bradshaw's Specialist Investigative Journalism module](https://github.com/paulbradshaw/MED7369-Specialist-Investigative-Journalism) is part of the MA in Data Journalism and is an optional module on the MA in Multiplatform and Mobile Journalism at Birmingham City University. The module has lots of links to readings, examples and exercises. 
+- [Paul Bradshaw's Specialist Investigative Journalism module](https://github.com/paulbradshaw/MED7369-Specialist-Investigative-Journalism) is part of the MA in Data Journalism and is an optional module on the MA in Multiplatform and Mobile Journalism at Birmingham City University. The module has lots of links to readings, examples and exercises.
 
 ### Other people's list of resources
 
@@ -27,6 +28,7 @@ A friend asked me for some resources in helping a team developing some data jour
 - [List of resources from NYU Data Journalism course](http://www.smalldatajournalism.com/readings/ )
 
 - [Journalism teaching website round up of resources](https://journalistsresource.org/tip-sheets/reporting/understanding-data-journalism-overview-tools-topics/)
+
 - [Resource from Peter Aldhous, a data journalist](https://www.peteraldhous.com/resources.html )
 
 
