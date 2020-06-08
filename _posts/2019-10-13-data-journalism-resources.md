@@ -19,7 +19,7 @@ A friend asked me for some resources in helping a team developing some data jour
 
 - [DataJournalism.com](http://DataJournalism.com) is a massive resource from EJC and Google News, especially the handbook. Lots of advice from experience and articles
 
-- Paul Bradshaw's [Data Journalism](https://github.com/paulbradshaw/MED7373-Data-Journalism) and [Specialist Investigative Journalism](https://github.com/paulbradshaw/MED7369-Specialist-Investigative-Journalism) modules are part of the MA in Data Journalism and the latter is an optional module on the MA in Multiplatform and Mobile Journalism at Birmingham City University. The module has lots of links to readings, examples and exercises.
+- Paul Bradshaw's [Data Journalism](https://github.com/paulbradshaw/MED7373-Data-Journalism) and [Specialist Investigative Journalism](https://github.com/paulbradshaw/MED7369-Specialist-Investigative-Journalism) modules are part of the MA in Data Journalism and the latter is an optional module on the MA in Multiplatform and Mobile Journalism at Birmingham City University. The modules have lots of links to readings, examples and exercises.
 
 ### Other people's list of resources
 
