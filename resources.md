@@ -10,10 +10,10 @@ title: Resources
 - [ONS style guide on data visualisation](http://style.ons.gov.uk/category/data-visualisation/) - Starting point for principles behind data visualisation.
 - [Visual Vocabulary](https://ft-interactive.github.io/visual-vocabulary/) - Guide to what chart you should use depending on the relationship you want to show.
 - [Ordinance Survey Geo Data Viz Toolkit](https://github.com/OrdnanceSurvey/GeoDataViz-Toolkit) - a set of assets and resources.
-- [Data to Viz Caveats](https://www.data-to-viz.com/caveats.html) - Common mistakes and how to avoid them, good practice. 
+- [Data to Viz Caveats](https://www.data-to-viz.com/caveats.html) - Common mistakes and how to avoid them, good practice.
 - [Quartz Guide to Bad Data](https://github.com/Quartz/bad-data-guide) - An exhaustive reference to problems seen in real-world data along with suggestions on how to resolve them.
 - [Lena Groeger's big list of resources](http://lenagroeger.com/resources/) - a big list.
-- [DWP Data Vis Training](https://dataviztraining.dwpdata.info/index.html) 
+- [DWP Data Vis Training](https://dataviztraining.dwpdata.info/index.html)
 
 ## Prototyping
 Tools you can use to drag and drop, or copy and paste your data to sketch it out.
@@ -39,7 +39,10 @@ Tools you can use to drag and drop, or copy and paste your data to sketch it out
 
 ## Specific charts
 
-[Pie chart](https://academy.datawrapper.de/article/127-what-to-consider-when-creating-a-pie-chart) 
+- [Pie chart](https://academy.datawrapper.de/article/127-what-to-consider-when-creating-a-pie-chart)
 
-[Small Multiples](https://medium.com/pew-research-center-decoded/how-pew-research-center-uses-small-multiple-charts-2531bfc06419)
+- [Small Multiples](https://medium.com/pew-research-center-decoded/how-pew-research-center-uses-small-multiple-charts-2531bfc06419)
 
+## Relevant academic papers
+- Michelle Borkin et al.'s [paper](https://vcg.seas.harvard.edu/publications/what-makes-a-visualization-memorable/paper) about what makes a visualisation memorable.
+- Jeffrey Heer, George Robertson on [how to order transitions/animations to make things understandable](https://idl.cs.washington.edu/papers/animated-transitions).
