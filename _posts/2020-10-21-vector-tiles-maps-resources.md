@@ -18,4 +18,3 @@ Useful for checking the layer and field names
 [Joining data to layer using setFeatureState](https://docs.mapbox.com/help/tutorials/data-joins-with-mapbox-boundaries/)
 
 [Hover effect with feature state](https://docs.mapbox.com/mapbox-gl-js/example/hover-styles/)
-
