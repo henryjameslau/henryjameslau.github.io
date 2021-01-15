@@ -22,3 +22,5 @@ To publish the tool. I downloaded the zip file, unzipped it in a new repo and tu
 <link rel='stylesheet' href='./build/bundle.css'>
 <script defer src='./build/bundle.js'></script>
 ```
+
+Since publishing this tool, many people have pointed out that this functionality exists in Excel as unpivot which is something I didn't know.
