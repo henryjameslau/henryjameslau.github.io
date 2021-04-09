@@ -43,7 +43,7 @@ This puts the burden on the user to interact with the page to see what they are 
 
 All these solutions have positives and negatives to them and it comes down to what you are trying to say with your chart.
 
-<script type="text/javascript" src="https://pym.nprapps.org/pym.v1.min.js">
+<script type="text/javascript" src="https://pym.nprapps.org/pym.v1.min.js"></script>
 <script>
 pym.Parent('returntonormal5', 'https://www.ons.gov.uk/visualisations/dvc1174/fig2/index.html', {});
 pym.Parent('returntonormal2', 'https://www.ons.gov.uk/visualisations/dvc1188/returntonormal/index.html', {});
