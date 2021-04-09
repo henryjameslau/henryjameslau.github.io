@@ -46,6 +46,8 @@ All these solutions have positives and negatives to them and it comes down to wh
 <script type="text/javascript" src="https://pym.nprapps.org/pym.v1.min.js"></script>
 <script>
 pym.Parent('returntonormal5', 'https://www.ons.gov.uk/visualisations/dvc1174/fig2/index.html', {});
+</script>
+<script>
 pym.Parent('returntonormal2', 'https://www.ons.gov.uk/visualisations/dvc1188/returntonormal/index.html', {});
 pym.Parent('heatmap1', 'https://www.ons.gov.uk/visualisations/dvc1234/heatmap/index.html', {});
 pym.Parent('heatmap2', 'https://www.ons.gov.uk/visualisations/dvc1263/figure-4-heatmap/index.html', {});
