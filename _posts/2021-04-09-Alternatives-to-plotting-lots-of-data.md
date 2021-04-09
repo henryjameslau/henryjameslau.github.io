@@ -11,10 +11,14 @@ It's more work but just reducing the number of series you plot leave you with ju
 
 From this
 <div id="returntonormal5"></div>
-
+<script>
+pym.Parent('returntonormal5', 'https://www.ons.gov.uk/visualisations/dvc1174/fig2/index.html', {});
+</script>
 to this
 <div id="returntonormal2"></div>
-
+<script>
+pym.Parent('returntonormal2', 'https://www.ons.gov.uk/visualisations/dvc1188/returntonormal/index.html', {});
+</script>
 ### Option 2: Use a heatmap
 
 Although this will depend on your dataset and how many timeseries you have. One option to plot data with a time element is to use a heatmap with time running left to right as this is convention (in some societies). This is useful for showing general patterns as you won't be able to show exact values with a colour scale.
@@ -44,11 +48,8 @@ This puts the burden on the user to interact with the page to see what they are 
 All these solutions have positives and negatives to them and it comes down to what you are trying to say with your chart.
 
 <script type="text/javascript" src="https://pym.nprapps.org/pym.v1.min.js"></script>
+
 <script>
-pym.Parent('returntonormal5', 'https://www.ons.gov.uk/visualisations/dvc1174/fig2/index.html', {});
-</script>
-<script>
-pym.Parent('returntonormal2', 'https://www.ons.gov.uk/visualisations/dvc1188/returntonormal/index.html', {});
 pym.Parent('heatmap1', 'https://www.ons.gov.uk/visualisations/dvc1234/heatmap/index.html', {});
 pym.Parent('heatmap2', 'https://www.ons.gov.uk/visualisations/dvc1263/figure-4-heatmap/index.html', {});
 pym.Parent('smallmultiple', 'https://www.ons.gov.uk/visualisations/dvc1276/reasonstoleavehome/index.html', {});
