@@ -1,11 +1,11 @@
 ---
-title:Alternatives to plotting lots of data on a page
-layout:post
+title: Alternatives to plotting lots of data on a page
+layout: post
 ---
 
 Imagine you've got some data with a lot of series and data points over time. You've tried a line chart but there is just too much data. You want it to look good but what are your options for visualising it? 
 
-###Option 1: Just plot the series that matter
+### Option 1: Just plot the series that matter
 
 It's more work but just reducing the number of series you plot leave you with just the most important data and a cleaner chart. This is easier to understand what's going on at a glance. The hard part comes in choosing which series to plot. 
 
@@ -17,7 +17,7 @@ to this
 
 
 
-###Option 2: Use a heatmap
+### Option 2: Use a heatmap
 
 Although this will depend on your dataset and how many timeseries you have. One option to plot data with a time element is to use a heatmap with time running left to right as this is convention (in some societies). This is useful for showing general patterns as you won't be able to show exact values with a colour scale. 
 
