@@ -3,6 +3,8 @@ title: Alternatives to plotting lots of data on a page
 layout: post
 ---
 
+<script type="text/javascript" src="https://pym.nprapps.org/pym.v1.min.js">
+
 Imagine you've got some data with a lot of series and data points over time. You've tried a line chart but there is just too much data. You want it to look good but what are your options for visualising it? 
 
 ### Option 1: Just plot the series that matter
@@ -46,16 +48,16 @@ This puts the burden on the user to interact with the page to see what they are 
 
 All these solutions have positives and negatives to them and it comes down to what you are trying to say with your chart. 
 
-<script type="text/javascript" src="https://pym.nprapps.org/pym.v1.min.js">
 <script>
-var pymParent = new pym.Parent('returntonormal5', 'https://www.ons.gov.uk/visualisations/dvc1174/fig2/index.html', {});
-var pymParent2 = new pym.Parent('returntonormal2', 'https://www.ons.gov.uk/visualisations/dvc1188/returntonormal/index.html', {});
-var pymParent3 = new pym.Parent('heatmap1', 'https://www.ons.gov.uk/visualisations/dvc1234/heatmap/index.html', {});
-var pymParent4 = new pym.Parent('heatmap2', 'https://www.ons.gov.uk/visualisations/dvc1263/figure-4-heatmap/index.html', {});
-var pymParent5 = new pym.Parent('smallmultiple', 'https://www.ons.gov.uk/visualisations/dvc1276/reasonstoleavehome/index.html', {});
-var pymParent6 = new pym.Parent('dropdown', 'https://www.ons.gov.uk/visualisations/dvc1273/vacsregional/index.html', {});
-var pymParent7 = new pym.Parent('dropdown2', 'https://www.ons.gov.uk/visualisations/dvc938/timeseriesmultiline2/index.html', {});
+pym.Parent('returntonormal5', 'https://www.ons.gov.uk/visualisations/dvc1174/fig2/index.html', {});
+pym.Parent('returntonormal2', 'https://www.ons.gov.uk/visualisations/dvc1188/returntonormal/index.html', {});
+pym.Parent('heatmap1', 'https://www.ons.gov.uk/visualisations/dvc1234/heatmap/index.html', {});
+pym.Parent('heatmap2', 'https://www.ons.gov.uk/visualisations/dvc1263/figure-4-heatmap/index.html', {});
+pym.Parent('smallmultiple', 'https://www.ons.gov.uk/visualisations/dvc1276/reasonstoleavehome/index.html', {});
+pym.Parent('dropdown', 'https://www.ons.gov.uk/visualisations/dvc1273/vacsregional/index.html', {});
+pym.Parent('dropdown2', 'https://www.ons.gov.uk/visualisations/dvc938/timeseriesmultiline2/index.html', {});
 </script>
+
 
 
 
