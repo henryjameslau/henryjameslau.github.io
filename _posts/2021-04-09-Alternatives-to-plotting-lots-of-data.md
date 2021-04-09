@@ -12,12 +12,12 @@ It's more work but just reducing the number of series you plot leave you with ju
 From this
 <div id="returntonormal5"></div>
 <script>
-pym.Parent('returntonormal5', 'https://www.ons.gov.uk/visualisations/dvc1174/fig2/index.html', {});
+var parent = pym.Parent('returntonormal5', 'https://www.ons.gov.uk/visualisations/dvc1174/fig2/index.html', {});
 </script>
 to this
 <div id="returntonormal2"></div>
 <script>
-pym.Parent('returntonormal2', 'https://www.ons.gov.uk/visualisations/dvc1188/returntonormal/index.html', {});
+var parent2 = pym.Parent('returntonormal2', 'https://www.ons.gov.uk/visualisations/dvc1188/returntonormal/index.html', {});
 </script>
 ### Option 2: Use a heatmap
 
