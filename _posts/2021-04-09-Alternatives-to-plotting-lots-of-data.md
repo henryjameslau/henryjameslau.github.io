@@ -13,12 +13,16 @@ From this
 <div id="returntonormal5"></div>
 <script src="https://cdn.ons.gov.uk/vendor/pym/1.3.2/pym.min.js"></script>
 <script>
+
 var parent = pym.Parent('returntonormal5', 'https://www.ons.gov.uk/visualisations/dvc1174/fig2/index.html', {});
+
 </script>
 to this
 <div id="returntonormal2"></div>
 <script>
+
 var parent2 = pym.Parent('returntonormal2', 'https://www.ons.gov.uk/visualisations/dvc1188/returntonormal/index.html', {});
+
 </script>
 ### Option 2: Use a heatmap
 
@@ -51,10 +55,15 @@ All these solutions have positives and negatives to them and it comes down to wh
 
 
 <script>
+
 pym.Parent('heatmap1', 'https://www.ons.gov.uk/visualisations/dvc1234/heatmap/index.html', {});
+
 pym.Parent('heatmap2', 'https://www.ons.gov.uk/visualisations/dvc1263/figure-4-heatmap/index.html', {});
+
 pym.Parent('smallmultiple', 'https://www.ons.gov.uk/visualisations/dvc1276/reasonstoleavehome/index.html', {});
+
 pym.Parent('dropdown', 'https://www.ons.gov.uk/visualisations/dvc1273/vacsregional/index.html', {});
+
 pym.Parent('dropdown2', 'https://www.ons.gov.uk/visualisations/dvc938/timeseriesmultiline2/index.html', {});
 </script>
 
