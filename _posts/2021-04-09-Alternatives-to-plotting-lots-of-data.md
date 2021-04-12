@@ -11,7 +11,7 @@ It's more work but just reducing the number of series you plot leave you with ju
 
 From this
 <div id="returntonormal5"></div>
-<script type="text/javascript" src="https://pym.nprapps.org/pym.v1.min.js"></script>
+<script src="https://cdn.ons.gov.uk/vendor/pym/1.3.2/pym.min.js"></script>
 <script>
 var parent = pym.Parent('returntonormal5', 'https://www.ons.gov.uk/visualisations/dvc1174/fig2/index.html', {});
 </script>
@@ -57,3 +57,4 @@ pym.Parent('smallmultiple', 'https://www.ons.gov.uk/visualisations/dvc1276/reaso
 pym.Parent('dropdown', 'https://www.ons.gov.uk/visualisations/dvc1273/vacsregional/index.html', {});
 pym.Parent('dropdown2', 'https://www.ons.gov.uk/visualisations/dvc938/timeseriesmultiline2/index.html', {});
 </script>
+
