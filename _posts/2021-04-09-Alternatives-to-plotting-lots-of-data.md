@@ -56,14 +56,14 @@ All these solutions have positives and negatives to them and it comes down to wh
 
 <script>
 
-pym.Parent('heatmap1', 'https://www.ons.gov.uk/visualisations/dvc1234/heatmap/index.html', {});
+var heatmap1 = pym.Parent('heatmap1', 'https://www.ons.gov.uk/visualisations/dvc1234/heatmap/index.html', {});
 
-pym.Parent('heatmap2', 'https://www.ons.gov.uk/visualisations/dvc1263/figure-4-heatmap/index.html', {});
+var heatmap2 = pym.Parent('heatmap2', 'https://www.ons.gov.uk/visualisations/dvc1263/figure-4-heatmap/index.html', {});
 
-pym.Parent('smallmultiple', 'https://www.ons.gov.uk/visualisations/dvc1276/reasonstoleavehome/index.html', {});
+var smallmultiple = pym.Parent('smallmultiple', 'https://www.ons.gov.uk/visualisations/dvc1276/reasonstoleavehome/index.html', {});
 
-pym.Parent('dropdown', 'https://www.ons.gov.uk/visualisations/dvc1273/vacsregional/index.html', {});
+var dropdown = pym.Parent('dropdown', 'https://www.ons.gov.uk/visualisations/dvc1273/vacsregional/index.html', {});
 
-pym.Parent('dropdown2', 'https://www.ons.gov.uk/visualisations/dvc938/timeseriesmultiline2/index.html', {});
+var dropdown2 = pym.Parent('dropdown2', 'https://www.ons.gov.uk/visualisations/dvc938/timeseriesmultiline2/index.html', {});
 </script>
 
