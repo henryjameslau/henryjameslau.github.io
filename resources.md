@@ -14,6 +14,7 @@ title: Resources
 - [Quartz Guide to Bad Data](https://github.com/Quartz/bad-data-guide) - An exhaustive reference to problems seen in real-world data along with suggestions on how to resolve them.
 - [Lena Groeger's big list of resources](http://lenagroeger.com/resources/) - a big list.
 - [DWP Data Vis Training](https://dataviztraining.dwpdata.info/index.html)
+- [IBCS Institute Data Visualisation Guide](https://antonz.org/dataviz-guide/) - Comprehensive (150 pages) with lots of examples (197 figures)and advice on designing clear, concise, and actionable reports and dashboards.
 
 ## Prototyping
 Tools you can use to drag and drop, or copy and paste your data to sketch it out.
