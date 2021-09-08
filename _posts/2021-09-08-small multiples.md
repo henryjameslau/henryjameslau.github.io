@@ -124,5 +124,5 @@ In the above chart, the data is nested on two levels, firstly by sex, and then b
 
 ![conceptual model for nesting two levels](https://raw.githubusercontent.com/henryjameslau/henryjameslau.github.io/ad4172f2368a90391e23899512367c6124dc424e/_media/nesting2levels.svg)
 
-Hopefully this helps you get your head round using nested data to create small multiple charts. I highly recommend Peter Cook's guide to [data joins](https://www.d3indepth.com/datajoins/) and the [enter exit update](https://www.d3indepth.com/enterexit/) pattern. 
+Hopefully this helps you get your head round using nested data to create small multiple charts. For more information about binding data and creating things based on data I highly recommend Peter Cook's guide to [data joins](https://www.d3indepth.com/datajoins/) and the [enter exit update](https://www.d3indepth.com/enterexit/) pattern. 
 
