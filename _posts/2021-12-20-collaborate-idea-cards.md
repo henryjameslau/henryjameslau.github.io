@@ -2,6 +2,8 @@
 title: Collaborate idea cards
 layout: post
 ---
+![Collaborate cards gif](https://raw.githubusercontent.com/henryjameslau/henryjameslau.github.io/master/_media/cards.gif)
+
 I've previously written about the [digital content team](https://www.henrylau.co.uk/2018/01/11/The-digital-content-team/) but a lot has changed since them. The data visualisation team is now 17 people strong and we have 9 data journalists, about to be 10. We've split up our work into teams based around four functions rather than discipline with the intension of allowing people to focus on particular aspects of work. The four functions are:
 
 1. Publish
