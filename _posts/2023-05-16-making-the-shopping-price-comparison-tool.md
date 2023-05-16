@@ -43,8 +43,8 @@ I shared it with colleague to test and get their feedback and it was split on ho
 
 
 ## What happened after
-The tool published on the wednesday and it was broken. After a quick frantic call with [Ahmad](https://twitter.com/bothness), found out there's some mime-type checking going on behind the scenes on our website which was tripping up but thankfully he 
+The tool published on the wednesday and it was broken. After a quick frantic call with [Ahmad](https://twitter.com/bothness), found out there's some mime-type checking going on behind the scenes on our website which was tripping up but thankfully he had encountered this problem before and had a quick and easy to implement solution.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MDk2MDU0NiwtOTc2NzM2NDU3LDYyMT
-kzODk3OF19
+eyJoaXN0b3J5IjpbLTE2NjQ4Mjk1NjksLTk3NjczNjQ1Nyw2Mj
+E5Mzg5NzhdfQ==
 -->
