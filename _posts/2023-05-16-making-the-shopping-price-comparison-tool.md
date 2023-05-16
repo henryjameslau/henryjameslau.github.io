@@ -3,7 +3,6 @@ title: Behind making the Shopping Prices Comparison Tool
 layout: post
 ---
 
-
 At the beginning of the month the ONS published the [Shopping Prices Comparison Tool](https://www.ons.gov.uk/economy/inflationandpriceindices/articles/shoppingpricescomparisontool/2023-05-03). The tool which I made allows you to see how the prices of individual items compare to last year. This includes most items that make up the basket of goods which come together to form the measure of inflation called CPIH (pronounced see-pee-eye-hayche). 
 
 ## The origin
@@ -51,6 +50,6 @@ The tool published on the wednesday and it was broken. After a quick frantic cal
 
 After the wobbly start things started to pick up. We got embedded in a few places, and the [article](https://www.ons.gov.uk/economy/inflationandpriceindices/articles/exploringhowtheaveragepriceofindividualitemshaschangedinthelastyear/2023-05-03) summarising biggest movers got picked up a lot too. ONS also got invited to do a few media pieces on the tool. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYyMDIyMTk5MCwtMzEwMjg4NDQsLTk3Nj
-czNjQ1Nyw2MjE5Mzg5NzhdfQ==
+eyJoaXN0b3J5IjpbNDAxODU0OTMyLC0zMTAyODg0NCwtOTc2Nz
+M2NDU3LDYyMTkzODk3OF19
 -->
