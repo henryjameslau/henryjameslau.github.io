@@ -33,6 +33,11 @@ I added a search box to filter down results.
 
 Chatting to other design colleagues, they suggested tabs for groups and accordians for sub groups. And adding a search with autocomplete field. 
 
+I shared it with colleague to test and get their feedback and it was split on how people liked to add items. Some people like search and some people liked browsing so we decided to keep both and add buttons at the top for people to switch. 
+
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk3NjczNjQ1Nyw2MjE5Mzg5NzhdfQ==
+eyJoaXN0b3J5IjpbNTc4Nzk3MDUyLC05NzY3MzY0NTcsNjIxOT
+M4OTc4XX0=
 -->
