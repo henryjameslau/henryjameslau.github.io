@@ -35,9 +35,9 @@ Chatting to other design colleagues, they suggested tabs for groups and accordia
 
 I shared it with colleague to test and get their feedback and it was split on how people liked to add items. Some people like search and some people liked browsing so we decided to keep both and add buttons at the top for people to switch. 
 
-
+[Matt Weeks](https://twitter.com/mathew_weeks), a graphic designer in our team, provided some designs in figma to work from and went with the torn paper receipt styling. 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTc4Nzk3MDUyLC05NzY3MzY0NTcsNjIxOT
-M4OTc4XX0=
+eyJoaXN0b3J5IjpbMTA4MDcxMzU3MiwtOTc2NzM2NDU3LDYyMT
+kzODk3OF19
 -->
