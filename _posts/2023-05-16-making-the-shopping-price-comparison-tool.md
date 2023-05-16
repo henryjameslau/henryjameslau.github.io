@@ -37,7 +37,9 @@ I shared it with colleague to test and get their feedback and it was split on ho
 
 [Matt Weeks](https://twitter.com/mathew_weeks), a graphic designer in our team, provided some designs in figma to work from and went with the torn paper receipt styling. 
 
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA4MDcxMzU3MiwtOTc2NzM2NDU3LDYyMT
+eyJoaXN0b3J5IjpbLTcyMjE4NDEyOCwtOTc2NzM2NDU3LDYyMT
 kzODk3OF19
 -->
