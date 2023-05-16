@@ -41,12 +41,13 @@ I shared it with colleague to test and get their feedback and it was split on ho
 
 [Matt Weeks](https://twitter.com/mathew_weeks), a graphic designer in our team, provided some designs in figma to work from and went with the torn paper receipt styling. 
 
+We had the usual frantic bug fixing and last minute changes, and some bugs are still there but everything went fairly smoothly. 
 
 ## What happened after
 The tool published on the wednesday and it was broken. After a quick frantic call with [Ahmad](https://twitter.com/bothness), found out there's some mime-type checking going on behind the scenes on our website which was tripping up but thankfully he had encountered this problem before and had a quick and easy to implement solution.
 
-After the wobbly start things started to pick up. We got embedded in a few places, and the [article](https://www.ons.gov.uk/economy/inflationandpriceindices/articles/exploringhowtheaveragepriceofindividualitemshaschangedinthelastyear/2023-05-03) summarising biggest movers got picked up too. Th
+After the wobbly start things started to pick up. We got embedded in a few places, and the [article](https://www.ons.gov.uk/economy/inflationandpriceindices/articles/exploringhowtheaveragepriceofindividualitemshaschangedinthelastyear/2023-05-03) summarising biggest movers got picked up a lot too. ONS also got invited to do a few media pieces on the tool. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjQ3NDU1ODk2LC05NzY3MzY0NTcsNjIxOT
+eyJoaXN0b3J5IjpbLTMxMDI4ODQ0LC05NzY3MzY0NTcsNjIxOT
 M4OTc4XX0=
 -->
