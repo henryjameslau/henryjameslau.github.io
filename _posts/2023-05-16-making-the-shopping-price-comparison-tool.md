@@ -21,7 +21,7 @@ I went down a few rabbit holes (trying selenium to get round user agent filterin
 
 The next problem was a UI problem. We had initially sketched out that you would have an input box to search for items, but most people have no idea what items are in the basket of goods but the list was looooong (around 500 items). We looked around at a lot of supermarkets websites to see how they got people to pick items, and it seemed to work for food but we had stuff like childminders, car services and theatre tickets which they don't. I took inspiration from this article on [Improving the usability of multi-selecting from a long list](https://medium.com/tripaneer-techblog/improving-the-usability-of-multi-selecting-from-a-long-list-63e1a67aab35) which suggested groups and displaying every option so people can browse. We had [COICOP](https://ec.europa.eu/eurostat/statistics-explained/index.php?title=Glossary:Classification_of_individual_consumption_by_purpose_%28COICOP%29) categories for each item but they weren't so user friendly so we created custom groups which Emily agreed to as long as we had the COICOP classifications in the data download. 
 
-I started off using items in groups as individual checkboxes and they would appear in a basket and you'd get some info.
+I started off using items in groups as individual checkboxes and they would appear in a basket (inspired by svelte's [crossfade](https://svelte.dev/tutorial/deferred-transitions)) and you'd get some info.
 
 [gif]
 
@@ -34,5 +34,5 @@ I added a search box to filter down results.
 Chatting to other design colleagues, they suggested tabs for groups and accordians for sub groups.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDEyNDYwNjgxXX0=
+eyJoaXN0b3J5IjpbNjIxOTM4OTc4XX0=
 -->
