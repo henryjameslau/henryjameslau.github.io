@@ -21,22 +21,24 @@ I went down a few rabbit holes (trying selenium to get round user agent filterin
 
 The next problem was a UI problem. We had initially sketched out that you would have an input box to search for items, but most people have no idea what items are in the basket of goods but the list was looooong (around 500 items). 
 
-![Mock designs for shopping prices tool showing a text input with items suggested to select](https://github.com/henryjameslau/henryjameslau.github.io/blob/75b00b8983c8b2413fa63bb830df560d18ebedb7/_media/cpih4.png)
+![Mock designs for shopping prices tool showing a text input with items suggested to select](https://github.com/henryjameslau/henryjameslau.github.io/blob/75b00b8983c8b2413fa63bb830df560d18ebedb7/_media/cpih4.png?raw=true)
+
 We looked around at a lot of supermarkets websites to see how they got people to pick items, and it seemed to work for food but we had stuff like childminders, car services and theatre tickets which they don't. I took inspiration from this article on [Improving the usability of multi-selecting from a long list](https://medium.com/tripaneer-techblog/improving-the-usability-of-multi-selecting-from-a-long-list-63e1a67aab35) which suggested groups and displaying every option so people can browse. We had [COICOP](https://ec.europa.eu/eurostat/statistics-explained/index.php?title=Glossary:Classification_of_individual_consumption_by_purpose_%28COICOP%29) categories for each item but they weren't so user friendly so we created custom groups which Emily agreed to as long as we had the COICOP classifications in the data download. 
 
 I started off using items in groups as individual checkboxes and they would appear in a basket (inspired by svelte's [crossfade](https://svelte.dev/tutorial/deferred-transitions)) and you'd get some info.
 
-![Animation showing items being added to the basket](https://github.com/henryjameslau/henryjameslau.github.io/blob/75b00b8983c8b2413fa63bb830df560d18ebedb7/_media/cpih.gif)
+![Animation showing items being added to the basket](https://github.com/henryjameslau/henryjameslau.github.io/blob/75b00b8983c8b2413fa63bb830df560d18ebedb7/_media/cpih.gif?raw=true)
 
 Next I added a [sortable table](https://github.com/the-pudding/svelte-starter/blob/main/src/components/helpers/SortTable.svelte) based off one from The Pudding.
 
-![Animation showing items being added to a sortable table and the table is then sorted by different columns](https://github.com/henryjameslau/henryjameslau.github.io/blob/75b00b8983c8b2413fa63bb830df560d18ebedb7/_media/cpih2.gif)
+![Animation showing items being added to a sortable table and the table is then sorted by different columns](https://github.com/henryjameslau/henryjameslau.github.io/blob/75b00b8983c8b2413fa63bb830df560d18ebedb7/_media/cpih2.gif?raw=true)
 
 I added a search box to filter down results. 
 
 Chatting to other design colleagues, they suggested tabs for groups and accordians for sub groups. And adding a search with autocomplete field. 
 
-![Wireframe showing designs for the tool with tabs and accordians and an autocomplete search](https://github.com/henryjameslau/henryjameslau.github.io/blob/75b00b8983c8b2413fa63bb830df560d18ebedb7/_media/cpih3.png)
+![Wireframe showing designs for the tool with tabs and accordians and an autocomplete search](https://github.com/henryjameslau/henryjameslau.github.io/blob/75b00b8983c8b2413fa63bb830df560d18ebedb7/_media/cpih3.png?raw=true)
+
 I shared it with colleague to test and get their feedback and it was split on how people liked to add items. Some people like search and some people liked browsing so we decided to keep both and add buttons at the top for people to switch. 
 
 [Matt Weeks](https://twitter.com/mathew_weeks), a graphic designer in our team, provided some designs in figma to work from and went with the torn paper receipt styling. 
