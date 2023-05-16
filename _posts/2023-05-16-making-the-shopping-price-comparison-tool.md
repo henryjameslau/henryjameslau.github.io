@@ -31,8 +31,8 @@ Next I added a [sortable table](https://github.com/the-pudding/svelte-starter/bl
 
 I added a search box to filter down results. 
 
-Chatting to other design colleagues, they suggested tabs for groups and accordians for sub groups.
+Chatting to other design colleagues, they suggested tabs for groups and accordians for sub groups. And adding a search with autocomplete field. 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjIxOTM4OTc4XX0=
+eyJoaXN0b3J5IjpbLTk3NjczNjQ1Nyw2MjE5Mzg5NzhdfQ==
 -->
