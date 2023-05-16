@@ -36,15 +36,15 @@ I added a search box to filter down results.
 
 Chatting to other design colleagues, they suggested tabs for groups and accordians for sub groups. And adding a search with autocomplete field. 
 
-
-
+![Wireframe showing designs for the tool with tabs and accordians and an autocomplete search](https://github.com/henryjameslau/henryjameslau.github.io/blob/75b00b8983c8b2413fa63bb830df560d18ebedb7/_media/cpih3.png)
 I shared it with colleague to test and get their feedback and it was split on how people liked to add items. Some people like search and some people liked browsing so we decided to keep both and add buttons at the top for people to switch. 
 
 [Matt Weeks](https://twitter.com/mathew_weeks), a graphic designer in our team, provided some designs in figma to work from and went with the torn paper receipt styling. 
 
 
-
+## What happened after
+The tool published on the wednesday and it was bro
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAwODA0MDM2NCwtOTc2NzM2NDU3LDYyMT
+eyJoaXN0b3J5IjpbMTE2MTQxNzg0MywtOTc2NzM2NDU3LDYyMT
 kzODk3OF19
 -->
