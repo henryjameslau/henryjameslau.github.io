@@ -12,7 +12,7 @@ However I did come across an issue when I was trying to implement the area chart
 
 After a conversation with Ahmad about how best to handle this, we agreed to just set all the series to be zero except the first area and then transition to numbers as you scrolled so the lines are all there to start with. 
 
-And here's the [scrolly about household type in action](https://main--regal-unicorn-29402c.netlify.app/).
+And here's the [scrolly about household type in action](https://main--regal-unicorn-29402c.netlify.app/) and [source code](https://github.com/henryjameslau/household-type-scrolly).
 
 I got the data from the [Create a custom dataset](https://www.ons.gov.uk/datasets/create) service where you can select different geographies and combinations of different variables at different levels of details. For this I chose England and Wales, all 101 ages and all 12 household types [link to dataset](https://www.ons.gov.uk/datasets/create/filter-outputs/acc41ec4-ec39-420c-a728-789d2ded3f01#get-data). 
 
