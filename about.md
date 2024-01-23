@@ -21,5 +21,5 @@ A science communicator with a digital edge
 - First degree was physics with astrophysics degree from Leicester University where he spent one year abroad in Nice on an ERASMUS exchange.
 
 ## Social Media
-Find me on [twitter](https://www.twitter.com/henryjameslau).
+Find me on [twitter](https://www.twitter.com/henrylau_ONS).
 
