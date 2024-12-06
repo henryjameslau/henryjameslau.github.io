@@ -28,7 +28,9 @@ When you run `npm run package`, this creates files in a `dist` folder.
 
 Following instructions from [this recipe](https://github.com/sveltejs/kit/issues/10320#issue-1789185724) you can run vite again on the `dist/index.js` to create the standalone iife .js files. See the `vite.webcomponents.config.js` and the modified `build` command in the package.json file. These standalone files can be then loaded from a webpage and then the web-component can be used. See the `test-page` folder for an example.
 
-## The finish result
+You may also need to edit the `index.js` in the `dist` folder so that it has a default export rather than just the svelte component, e.g. `export { default as Counter } from './Counter/Counter.svelte';`. 
+
+## The finished result
 Here's my github [repo for svelte 4 web components](https://github.com/henryjameslau/svelte-web-component). I used this [template](https://github.com/Tropix126/sveltekit-package-template/tree/master) as a good starting point and followed [this recipe](https://github.com/sveltejs/kit/issues/10320#issue-1789185724) which I found from a stackoverflow answer. 
 
 
